@@ -1,0 +1,19 @@
+{
+  "name": "explore.distributed.press",
+  "version": "1.0.0",
+  "description": "Explore the DWeb! Sites crawled from Distributed Press instances.",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "distributed.press",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0",
+    "fs-extra": "^11.2.0",
+    "node-fetch": "^3.3.2"
+  }
+}

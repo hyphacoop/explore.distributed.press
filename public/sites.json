@@ -1,0 +1,262 @@
+[
+  {
+    "domain": "akhileshthite.github.io",
+    "public": true,
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://akhileshthite.github.io"
+      },
+      "hyper": {
+        "enabled": false
+      },
+      "ipfs": {
+        "enabled": false
+      }
+    },
+    "metadata": {
+      "title": "Error",
+      "description": "Failed to fetch metadata"
+    }
+  },
+  {
+    "domain": "attente.sutty.nl",
+    "public": true,
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://attente.sutty.nl"
+      },
+      "hyper": {
+        "enabled": false
+      },
+      "ipfs": {
+        "enabled": false
+      }
+    },
+    "metadata": {
+      "title": "attentē | ✹",
+      "description": "→ regenerar nossa atenção para superviver ←"
+    }
+  },
+  {
+    "domain": "bitacoradigital.sutty.nl",
+    "public": true,
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://bitacoradigital.sutty.nl"
+      },
+      "hyper": {
+        "enabled": false
+      },
+      "ipfs": {
+        "enabled": false
+      }
+    },
+    "metadata": {
+      "title": "Bitácora digital | ¡Este espacio es la versión Fediversa de nuestro proyecto!",
+      "description": "Somos un proyecto digital con presencia en muchas redes, ahora también en Fediverso"
+    }
+  },
+  {
+    "domain": "distributed.press",
+    "public": true,
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://distributed.press"
+      },
+      "hyper": {
+        "enabled": false
+      },
+      "ipfs": {
+        "enabled": false
+      }
+    },
+    "metadata": {
+      "title": "Home | Distributed Press",
+      "description": "DP"
+    }
+  },
+  {
+    "domain": "dp.akhilesh.art",
+    "public": true,
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://dp.akhilesh.art"
+      },
+      "hyper": {
+        "enabled": false
+      },
+      "ipfs": {
+        "enabled": false
+      }
+    },
+    "metadata": {
+      "title": "Error",
+      "description": "Failed to fetch metadata"
+    }
+  },
+  {
+    "domain": "ranger.mauve.moe",
+    "public": true,
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://ranger.mauve.moe"
+      },
+      "hyper": {
+        "enabled": false
+      },
+      "ipfs": {
+        "enabled": false
+      }
+    },
+    "metadata": {
+      "title": "RangerMauve",
+      "description": "A Canadian tech enthusiast with a passion for decentralization."
+    }
+  },
+  {
+    "domain": "staticpub.distributed.press",
+    "public": true,
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://staticpub.distributed.press"
+      },
+      "hyper": {
+        "enabled": false
+      },
+      "ipfs": {
+        "enabled": false
+      }
+    },
+    "metadata": {
+      "title": "Welcome to Your Static Site",
+      "description": "No Description Available"
+    }
+  },
+  {
+    "domain": "sutty.nl",
+    "public": true,
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://sutty.nl"
+      },
+      "hyper": {
+        "enabled": false
+      },
+      "ipfs": {
+        "enabled": false
+      }
+    },
+    "metadata": {
+      "title": "Sutty | Sutty crea sitios seguros, veloces y visibles para organizaciones, colectivas y activistasSuttySuttyLogo de SuttySuttySuttyUn signo de exclamación que late para llamar la atención.SuttyUn símbolo de mayor \">\"SuttyUn símbolo de numeral \"#\"Un asterisco \"*\"SuttyUn ñuflo, el símbolo de la ñ \"~\"Un circunflejo \"^\"SuttySutty",
+      "description": "Sutty crea sitios seguros, veloces y visibles para organizaciones, colectivas y activistas"
+    }
+  },
+  {
+    "domain": "three.compost.digital",
+    "public": true,
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://three.compost.digital"
+      },
+      "hyper": {
+        "enabled": false
+      },
+      "ipfs": {
+        "enabled": false
+      }
+    },
+    "metadata": {
+      "title": "COMPOST ISSUE 03 | COMPOST ISSUE 03: Water Bodies",
+      "description": "COMPOST ISSUE 03: Water Bodies"
+    }
+  },
+  {
+    "domain": "try.distributed.press",
+    "public": true,
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://try.distributed.press"
+      },
+      "hyper": {
+        "enabled": false
+      },
+      "ipfs": {
+        "enabled": false
+      }
+    },
+    "metadata": {
+      "title": "No Title Available",
+      "description": "No Description Available"
+    }
+  },
+  {
+    "domain": "www.fightforthefuture.org",
+    "public": true,
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://www.fightforthefuture.org"
+      },
+      "hyper": {
+        "enabled": false
+      },
+      "ipfs": {
+        "enabled": false
+      }
+    },
+    "metadata": {
+      "title": "Fight for the Future",
+      "description": "No Description Available"
+    }
+  },
+  {
+    "domain": "www.keepkhan.com",
+    "public": true,
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://www.keepkhan.com"
+      },
+      "hyper": {
+        "enabled": false
+      },
+      "ipfs": {
+        "enabled": false
+      }
+    },
+    "metadata": {
+      "title": "Keep Lina Khan",
+      "description": "No Description Available"
+    }
+  },
+  {
+    "domain": "manual-site-1.com",
+    "metadata": {
+      "title": "Manually Added Site",
+      "description": "This site was added manually."
+    },
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "http://manual-site-1.com"
+      },
+      "hyper": {
+        "enabled": false
+      },
+      "ipfs": {
+        "enabled": false
+      }
+    },
+    "public": true
+  }
+]
