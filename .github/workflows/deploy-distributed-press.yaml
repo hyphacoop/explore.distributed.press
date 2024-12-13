@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Check out the repository
+      - uses: actions/checkout@v3
+
+      # Step 2: Set up Node.js
+      - name: Set up Node.js 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      # Step 3: Install dependencies and generate static files
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate site files
+        run: node ./src/index.js
+
+      # Step 4: Deploy to Distributed Press
+      - name: Publish to Distributed Press
+        uses: hyphacoop/actions-distributed-press@v1.1.0
+        with:
+          publish_dir: public
+          dp_url: https://api.distributed.press
+          refresh_token: ${{ secrets.DISTRIBUTED_PRESS_TOKEN }}
+          site_url: explore.distributed.press
+          deploy_http: true
+          deploy_hyper: true
+          deploy_ipfs: true
