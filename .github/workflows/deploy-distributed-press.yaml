@@ -24,7 +24,7 @@ jobs:
         run: npm ci
 
       - name: Generate site files
-        run: node ./src/index.js
+        run: node ./
 
       # Step 4: Deploy to Distributed Press
       - name: Publish to Distributed Press
