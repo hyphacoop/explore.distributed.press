@@ -1,10 +1,10 @@
-import fs from 'fs-extra';
-import path from 'path';
-import { fileURLToPath } from 'url';
+import fs from 'fs-extra'
+import path from 'path'
+import { fileURLToPath } from 'url'
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
-function generateHTML(sites) {
+function generateHTML (sites) {
   const htmlContent = `
     <!DOCTYPE html>
     <html lang="en">
@@ -43,11 +43,11 @@ function generateHTML(sites) {
         </ul>
     </body>
     </html>
-  `;
+  `
 
-  const outputPath = path.join(__dirname, '../public/index.html');
-  fs.writeFileSync(outputPath, htmlContent, 'utf-8');
-  console.log(`Site index generated at ${outputPath}`);
+  const outputPath = path.join(__dirname, '../public/index.html')
+  fs.writeFileSync(outputPath, htmlContent, 'utf-8')
+  console.log(`Site index generated at ${outputPath}`)
 }
 
-export { generateHTML };
+export { generateHTML }
