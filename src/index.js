@@ -9,7 +9,7 @@ async function fetchManualSites() {
     const manualSitesPath = path.join(__dirname, '../manualSites.json');
     if (fs.existsSync(manualSitesPath)) {
       const manualSites = JSON.parse(fs.readFileSync(manualSitesPath, 'utf-8'));
-      return manualSites.filter((site) => site.public);
+      return manualSites.map((site) => ({ ...site, public: true }));
     }
     return [];
   } catch (error) {
