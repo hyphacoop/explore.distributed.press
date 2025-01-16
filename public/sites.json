@@ -120,6 +120,26 @@
     }
   },
   {
+    "domain": "savethearchive.com",
+    "public": true,
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://savethearchive.com"
+      },
+      "hyper": {
+        "enabled": false
+      },
+      "ipfs": {
+        "enabled": false
+      }
+    },
+    "metadata": {
+      "title": "Save Music, Save the Archive!",
+      "description": "No Description Available"
+    }
+  },
+  {
     "domain": "staticpub.distributed.press",
     "public": true,
     "links": {
@@ -236,6 +256,26 @@
     },
     "metadata": {
       "title": "Keep Lina Khan",
+      "description": "No Description Available"
+    }
+  },
+  {
+    "domain": "www.savethearchive.com",
+    "public": true,
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://www.savethearchive.com"
+      },
+      "hyper": {
+        "enabled": false
+      },
+      "ipfs": {
+        "enabled": false
+      }
+    },
+    "metadata": {
+      "title": "Save Music, Save the Archive!",
       "description": "No Description Available"
     }
   },

@@ -1,8 +1,3 @@
-async function loadFetch() {
-    const fetchModule = await import('node-fetch');
-    return fetchModule.default || fetchModule;
-}
-
 async function fetchP2PLinks(domain) {
   const hyperUrl = `https://${domain}/.well-known/hyper`;
   const ipfsUrl = `https://${domain}/.well-known/ipfs`;
@@ -10,11 +5,9 @@ async function fetchP2PLinks(domain) {
   const links = { hyper: { enabled: false }, ipfs: { enabled: false } };
 
   try {
-    const fetch = await loadFetch();
-
     // Fetch Hyper link
     try {
-      const hyperResponse = await fetch(hyperUrl);
+      const hyperResponse = await globalThis.fetch(hyperUrl);
       if (hyperResponse.ok) {
         const hyperLink = await hyperResponse.text();
         links.hyper = { enabled: true, link: hyperLink.trim() };
@@ -27,7 +20,7 @@ async function fetchP2PLinks(domain) {
 
     // Fetch IPFS link
     try {
-      const ipfsResponse = await fetch(ipfsUrl);
+      const ipfsResponse = await globalThis.fetch(ipfsUrl);
       if (ipfsResponse.ok) {
         const ipfsLink = await ipfsResponse.text();
         links.ipfs = { enabled: true, link: ipfsLink.trim() };

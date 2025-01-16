@@ -1,14 +1,8 @@
 const cheerio = require('cheerio');
 
-async function loadFetch() {
-    const fetchModule = await import('node-fetch');
-    return fetchModule.default || fetchModule;
-}
-
 async function scrapeMetadata(url) {
   try {
-    const fetch = await loadFetch();
-    const response = await fetch(url);
+    const response = await globalThis.fetch(url);
     if (!response.ok) {
       throw new Error(`Failed to fetch ${url}: ${response.statusText}`);
     }

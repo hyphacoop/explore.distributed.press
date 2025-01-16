@@ -3,15 +3,9 @@ const fetchP2PLinks = require('./p2pLinks');
 
 const API_ENDPOINT = 'https://api.distributed.press/v1/sites';
 
-async function loadFetch() {
-    const fetchModule = await import('node-fetch');
-    return fetchModule.default || fetchModule;
-}
-
 async function fetchFromAPI() {
   try {
-    const fetch = await loadFetch();
-    const response = await fetch(API_ENDPOINT);
+    const response = await globalThis.fetch(API_ENDPOINT);
     if (!response.ok) {
       throw new Error(`Failed to fetch API: ${response.statusText}`);
     }
