@@ -1,8 +1,11 @@
-const fs = require('fs');
-const path = require('path');
-const fetchAllSites = require('./fetchSites');
-const scrapeMetadata = require('./scraper');
-const generateHTML = require('./generator');
+import { fetchAllSites } from './fetchSites.js';
+import { scrapeMetadata } from './scraper.js';
+import {generateHTML} from './generator.js';
+import fs from 'fs-extra';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 async function fetchManualSites() {
   try {
@@ -18,7 +21,6 @@ async function fetchManualSites() {
   }
 }
 
-async function main() {
     console.log('Fetching sites from API...');
     const apiSites = await fetchAllSites();
   
@@ -44,7 +46,3 @@ async function main() {
     const outputJSON = path.join(__dirname, '../public', 'sites.json');
     fs.writeFileSync(outputJSON, JSON.stringify(siteData, null, 2), 'utf-8');
     console.log(`Site list saved to ${outputJSON}`);
-  }
-  
-
-main().catch((err) => console.error('Error in main function:', err.message));

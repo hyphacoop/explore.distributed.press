@@ -2,6 +2,7 @@
   "name": "explore.distributed.press",
   "version": "1.0.0",
   "description": "Explore the DWeb! Sites crawled from Distributed Press instances.",
+  "type": "module",
   "main": "./src/index.js",
   "scripts": {
     "start": "node ./src/index.js",

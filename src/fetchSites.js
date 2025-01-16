@@ -1,5 +1,13 @@
-const knownInstances = require('./knownInstances.json');
-const fetchP2PLinks = require('./p2pLinks');
+import { fetchP2PLinks } from './p2pLinks.js';
+
+import fs from 'fs-extra';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+const knownInstancesPath = path.join(__dirname, './knownInstances.json');
+const knownInstances = JSON.parse(fs.readFileSync(knownInstancesPath, 'utf-8'));
 
 const API_ENDPOINT = 'https://api.distributed.press/v1/sites';
 
@@ -50,7 +58,7 @@ async function fetchFromKnownInstances() {
   return sites;
 }
 
-async function fetchAllSites() {
+export async function fetchAllSites() {
     const apiSites = await fetchFromAPI();
     const knownSites = await fetchFromKnownInstances();
   
@@ -71,6 +79,3 @@ async function fetchAllSites() {
   
     return uniqueSites;
   }
-  
-
-module.exports = fetchAllSites;

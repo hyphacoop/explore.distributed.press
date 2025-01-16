@@ -1,6 +1,6 @@
-const cheerio = require('cheerio');
+import { load } from 'cheerio';
 
-async function scrapeMetadata(url) {
+export async function scrapeMetadata(url) {
   try {
     const response = await globalThis.fetch(url);
     if (!response.ok) {
@@ -8,7 +8,7 @@ async function scrapeMetadata(url) {
     }
 
     const html = await response.text();
-    const $ = cheerio.load(html);
+    const $ = load(html);
 
     const title = $('title').text().trim() || 'No Title Available';
     const description =
@@ -20,5 +20,3 @@ async function scrapeMetadata(url) {
     return { title: 'Error', description: 'Failed to fetch metadata' };
   }
 }
-
-module.exports = scrapeMetadata;

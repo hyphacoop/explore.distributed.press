@@ -1,4 +1,4 @@
-async function fetchP2PLinks(domain) {
+export async function fetchP2PLinks(domain) {
   const hyperUrl = `https://${domain}/.well-known/hyper`;
   const ipfsUrl = `https://${domain}/.well-known/ipfs`;
 
@@ -36,5 +36,3 @@ async function fetchP2PLinks(domain) {
 
   return links;
 }
-
-module.exports = fetchP2PLinks;
