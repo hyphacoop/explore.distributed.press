@@ -21,6 +21,26 @@ async function fetchManualSites () {
   }
 }
 
+async function checkErroredSites (sites) {
+  const validSites = []
+  const erroredSites = []
+
+  for (const site of sites) {
+    try {
+      const response = await globalThis.fetch(site.links.http?.link || `https://${site.domain}`)
+      if (!response.ok) {
+        throw new Error(`Status ${response.status}`)
+      }
+      validSites.push(site)
+    } catch (error) {
+      console.warn(`Site ${site.domain} is unreachable: ${error.message}`)
+      erroredSites.push(site)
+    }
+  }
+
+  return { validSites, erroredSites }
+}
+
 console.log('Fetching sites from API...')
 const apiSites = await fetchAllSites()
 
@@ -29,9 +49,12 @@ const manualSites = await fetchManualSites()
 
 const allSites = [...apiSites, ...manualSites]
 
+console.log('Checking for errored sites...')
+const { validSites, erroredSites } = await checkErroredSites(allSites)
+
 console.log('Scraping metadata...')
 const siteData = await Promise.all(
-  allSites.map(async (site) => {
+  validSites.map(async (site) => {
     if (site.metadata?.title && site.metadata?.description) {
       return site // Use existing metadata if available
     }
@@ -43,6 +66,11 @@ const siteData = await Promise.all(
 console.log('Generating HTML...')
 generateHTML(siteData)
 
-const outputJSON = path.join(__dirname, '../public', 'sites.json')
-fs.writeFileSync(outputJSON, JSON.stringify(siteData, null, 2), 'utf-8')
-console.log(`Site list saved to ${outputJSON}`)
+const sitesOutputPath = path.join(__dirname, '../public', 'sites.json')
+const erroredOutputPath = path.join(__dirname, '../public', 'erroredSites.json')
+
+fs.writeFileSync(sitesOutputPath, JSON.stringify(siteData, null, 2), 'utf-8')
+console.log(`Valid site list saved to ${sitesOutputPath}`)
+
+fs.writeFileSync(erroredOutputPath, JSON.stringify(erroredSites, null, 2), 'utf-8')
+console.log(`Errored site list saved to ${erroredOutputPath}`)

@@ -1,40 +1,5 @@
 [
   {
-    "domain": "akhileshthite.github.io",
-    "public": true,
-    "protocols": {
-      "http": true,
-      "hyper": true,
-      "ipfs": true
-    },
-    "id": "akhileshthite.github.io",
-    "links": {
-      "http": {
-        "enabled": true,
-        "link": "https://akhileshthite.github.io"
-      },
-      "hyper": {
-        "enabled": true,
-        "link": "hyper://akhileshthite.github.io",
-        "gateway": "https://akhileshthite-github-io.hyper.hypha.coop/",
-        "raw": "hyper://7ns6qwpwiqt987p61qxice51m1h1c184eutw5pwg1kw4hio6m4qo/",
-        "dnslink": "/hyper/7ns6qwpwiqt987p61qxice51m1h1c184eutw5pwg1kw4hio6m4qo/"
-      },
-      "ipfs": {
-        "enabled": true,
-        "link": "ipns://akhileshthite.github.io/",
-        "gateway": "https://akhileshthite-github-io.ipns.ipfs.hypha.coop",
-        "cid": "bafybeibmtkvecjm4mtcrcy3xfsh7wz3ujfkeisv3hmqrqx7pd7wvhvts2e",
-        "pubKey": "ipns://k51qzi5uqu5dizdcam91hmz70hm1xkrz9o3ox18hodzx0m7mnwmve4jo8397wn/",
-        "dnslink": "/ipns/k51qzi5uqu5dizdcam91hmz70hm1xkrz9o3ox18hodzx0m7mnwmve4jo8397wn/"
-      }
-    },
-    "metadata": {
-      "title": "Error",
-      "description": "Failed to fetch metadata"
-    }
-  },
-  {
     "domain": "attente.sutty.nl",
     "public": true,
     "protocols": {
@@ -137,76 +102,6 @@
     "metadata": {
       "title": "Home | Distributed Press",
       "description": "DP"
-    }
-  },
-  {
-    "domain": "dp.akhilesh.art",
-    "public": true,
-    "protocols": {
-      "http": true,
-      "hyper": true,
-      "ipfs": true
-    },
-    "id": "dp.akhilesh.art",
-    "links": {
-      "http": {
-        "enabled": true,
-        "link": "https://dp.akhilesh.art"
-      },
-      "hyper": {
-        "enabled": true,
-        "link": "hyper://dp.akhilesh.art",
-        "gateway": "https://dp-akhilesh-art.hyper.hypha.coop/",
-        "raw": "hyper://t685fd3snbadhqkss8spcgz454p95ap77kdfjafotsxfhhrhuqio/",
-        "dnslink": "/hyper/t685fd3snbadhqkss8spcgz454p95ap77kdfjafotsxfhhrhuqio/"
-      },
-      "ipfs": {
-        "enabled": true,
-        "link": "ipns://dp.akhilesh.art/",
-        "gateway": "https://dp-akhilesh-art.ipns.ipfs.hypha.coop",
-        "cid": "bafybeibhq4pwulmelo3hii4osasuomegzrj5qdiuqa63sqgjymkx4fvoue",
-        "pubKey": "ipns://k51qzi5uqu5djj6yo1nne5r2oomxgroy3tezhgupvx0v2jlbighfah1k028sc1/",
-        "dnslink": "/ipns/k51qzi5uqu5djj6yo1nne5r2oomxgroy3tezhgupvx0v2jlbighfah1k028sc1/"
-      }
-    },
-    "metadata": {
-      "title": "Error",
-      "description": "Failed to fetch metadata"
-    }
-  },
-  {
-    "domain": "post.postvis.io",
-    "public": true,
-    "protocols": {
-      "http": true,
-      "hyper": true,
-      "ipfs": true
-    },
-    "id": "post.postvis.io",
-    "links": {
-      "http": {
-        "enabled": true,
-        "link": "https://post.postvis.io"
-      },
-      "ipfs": {
-        "enabled": true,
-        "link": "ipns://post.postvis.io/",
-        "gateway": "https://post-postvis-io.ipns.ipfs.hypha.coop",
-        "cid": "bafybeiczsscdsbs7ffqz55asqdf3smv6klcw3gofszvwlyarci47bgf354",
-        "pubKey": "ipns://k51qzi5uqu5dkjbv5x8qeh6p7xmszrdb4f6iutruikqqwauftlkh89dhhr2svo/",
-        "dnslink": "/ipns/k51qzi5uqu5dkjbv5x8qeh6p7xmszrdb4f6iutruikqqwauftlkh89dhhr2svo/"
-      },
-      "hyper": {
-        "enabled": true,
-        "link": "hyper://post.postvis.io",
-        "gateway": "https://post-postvis-io.hyper.hypha.coop/",
-        "raw": "hyper://id5fio4pkxuzfgdik3m1dq8aqawsz4anjj5k4c4knh96qko9ri9y/",
-        "dnslink": "/hyper/id5fio4pkxuzfgdik3m1dq8aqawsz4anjj5k4c4knh96qko9ri9y/"
-      }
-    },
-    "metadata": {
-      "title": "Error",
-      "description": "Failed to fetch metadata"
     }
   },
   {
@@ -523,25 +418,5 @@
       "title": "Save Music, Save the Archive!",
       "description": "No Description Available"
     }
-  },
-  {
-    "domain": "manual-site-1.com",
-    "metadata": {
-      "title": "Manually Added Site",
-      "description": "This site was added manually."
-    },
-    "links": {
-      "http": {
-        "enabled": true,
-        "link": "http://manual-site-1.com"
-      },
-      "hyper": {
-        "enabled": false
-      },
-      "ipfs": {
-        "enabled": false
-      }
-    },
-    "public": true
   }
 ]
