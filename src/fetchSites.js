@@ -1,5 +1,3 @@
-import { fetchP2PLinks } from './p2pLinks.js'
-
 import fs from 'fs-extra'
 import path from 'path'
 import { fileURLToPath } from 'url'
@@ -9,7 +7,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const knownInstancesPath = path.join(__dirname, './knownInstances.json')
 const knownInstances = JSON.parse(fs.readFileSync(knownInstancesPath, 'utf-8'))
 
-const API_ENDPOINT = 'https://api.distributed.press/v1/sites'
+const API_ENDPOINT = `${knownInstances}/sites`
 
 async function fetchFromAPI () {
   try {
@@ -20,13 +18,9 @@ async function fetchFromAPI () {
 
     const data = await response.json()
     if (Array.isArray(data)) {
-      return data.map((domain) => ({
-        domain,
-        public: true,
-        links: { http: { enabled: true, link: `https://${domain}` } }
-      }))
+      return data // The API now returns full site data.
     } else {
-      console.error('API response is not an array of domains:', data)
+      console.error('API response is not an array of site objects:', data)
       return []
     }
   } catch (error) {
@@ -35,44 +29,17 @@ async function fetchFromAPI () {
   }
 }
 
-async function fetchFromKnownInstances () {
-  const sites = []
-  for (const instance of knownInstances) {
-    try {
-      const response = await globalThis.fetch(`${instance}/.well-known/distributed.press/sites`)
-      if (response.ok) {
-        const data = await response.json()
-        if (Array.isArray(data.sites)) {
-          sites.push(...data.sites)
-        } else {
-          console.error(`Invalid data structure from ${instance}:`, data)
-        }
-      } else {
-        console.error(`Failed to fetch from ${instance}: Status ${response.status}`)
-      }
-    } catch (error) {
-      console.error(`Error fetching from ${instance}: ${error.message}`)
-    }
-  }
-  return sites
-}
-
 export async function fetchAllSites () {
   const apiSites = await fetchFromAPI()
-  const knownSites = await fetchFromKnownInstances()
 
-  const allSites = [...apiSites, ...knownSites]
+  // The API already includes full site data with P2P links.
   const uniqueSites = []
   const domains = new Set()
 
-  for (const site of allSites) {
+  for (const site of apiSites) {
     if (!domains.has(site.domain)) {
       domains.add(site.domain)
-
-      // Fetch P2P links dynamically
-      console.log(`Fetching P2P links for domain: ${site.domain}`)
-      const p2pLinks = await fetchP2PLinks(site.domain)
-      uniqueSites.push({ ...site, links: { ...site.links, ...p2pLinks } })
+      uniqueSites.push(site)
     }
   }
 
