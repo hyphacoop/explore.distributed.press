@@ -37,9 +37,12 @@ function generateHTML (sites) {
           <p style="text-align: center; font-weight: bold;">Total Websites: ${totalCount}</p>
           <!-- Welcome and Additional Links -->
           <p>Welcome to the Distributed Press Site Index. Below is a list of sites currently using Distributed Press.</p>
-          <p style="margin-bottom: 20px; font-size: 14px;">
+          <p style="margin-bottom: 20px; font-size: 12px;">
             Didn't see your site here? Please make an 
-            <a href="https://github.com/hyphacoop/explore.distributed.press/issues" target="_blank">issue</a>.
+            <a href="https://github.com/hyphacoop/explore.distributed.press/issues" target="_blank">issue</a>. 
+            To view the native URLs, use P2P browsers like 
+            <a href="//agregore.mauve.moe/" target="_blank">Agregore</a> and 
+            <a href="//peersky.p2plabs.xyz/" target="_blank">Peersky</a>.
           </p>
           <!-- Table -->
           <table>
@@ -98,12 +101,6 @@ function generateHTML (sites) {
                 .join('')}
             </tbody>
           </table>
-          <!-- Table Footer -->
-          <p style="margin-top: 20px; font-size: 12px; text-align: center;">
-            To view the native URLs, use P2P browsers like 
-            <a href="//agregore.mauve.moe/" target="_blank">Agregore</a> and 
-            <a href="//peersky.p2plabs.xyz/" target="_blank">Peersky</a>.
-          </p>
           <!-- Powered By Section -->
           <footer style="margin-top: 40px; font-size: 12px;">
             <div style="display: inline-block; text-align: center; margin-top: 20px; padding: 8px;">
