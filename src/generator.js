@@ -21,7 +21,7 @@ function generateHTML (sites) {
         <!-- icons -->
         <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
         <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
-        
+
         <title>Distributed Press Site Index</title>
         <link rel="stylesheet" href="styles.css">
     </head>
@@ -56,8 +56,8 @@ function generateHTML (sites) {
                 <th>Title</th>
                 <th>Description</th>
                 <th>URLs</th>
-                <th>IPFS Hash</th>
-                <th>Hyper Hash</th>
+                <th>IPFS PubKey</th>
+                <th>Hyper PubKey</th>
               </tr>
             </thead>
             <tbody>
