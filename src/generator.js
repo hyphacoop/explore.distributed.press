@@ -18,6 +18,10 @@ function generateHTML (sites) {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Explore the Distributed Press ecosystem. Find sites leveraging decentralized publishing.">
+        <!-- icons -->
+        <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+        
         <title>Distributed Press Site Index</title>
         <link rel="stylesheet" href="styles.css">
     </head>
