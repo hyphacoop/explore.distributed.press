@@ -1,0 +1,23 @@
+[
+    {
+      "domain": "manual-site-1.com",
+      "metadata": {
+        "title": "Manually Added Site",
+        "description": "This site was added manually."
+      },
+      "links": {
+        "http": {
+          "enabled": true,
+          "link": "http://manual-site-1.com"
+        },
+        "hyper": {
+          "enabled": false
+        },
+        "ipfs": {
+          "enabled": false
+        }
+      },
+      "public": true
+    }
+  ]
+  

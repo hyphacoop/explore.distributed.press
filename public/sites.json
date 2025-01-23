@@ -1,0 +1,422 @@
+[
+  {
+    "domain": "attente.sutty.nl",
+    "public": true,
+    "protocols": {
+      "http": true,
+      "hyper": true,
+      "ipfs": true
+    },
+    "id": "attente.sutty.nl",
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://attente.sutty.nl"
+      },
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://attente.sutty.nl/",
+        "gateway": "https://attente-sutty-nl.ipns.ipfs.hypha.coop",
+        "cid": "bafybeib33bgqzsad3uqg47dxhazznvdktxuztlozqsb777s46pgpblyl64",
+        "pubKey": "ipns://k51qzi5uqu5diwwgnlxh1u9ktwjzhkqmktq6zghd4fxjitfk6i4bg7igekawku/",
+        "dnslink": "/ipns/k51qzi5uqu5diwwgnlxh1u9ktwjzhkqmktq6zghd4fxjitfk6i4bg7igekawku/"
+      },
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://attente.sutty.nl",
+        "gateway": "https://attente-sutty-nl.hyper.hypha.coop/",
+        "raw": "hyper://z1nakdshfmrpehep99xgtjbt7sa4r1hthtepio1fqii66atfqu4o/",
+        "dnslink": "/hyper/z1nakdshfmrpehep99xgtjbt7sa4r1hthtepio1fqii66atfqu4o/"
+      }
+    },
+    "metadata": {
+      "title": "attentē | ✹",
+      "description": "→ regenerar nossa atenção para superviver ←"
+    }
+  },
+  {
+    "domain": "bitacoradigital.sutty.nl",
+    "public": true,
+    "protocols": {
+      "http": true,
+      "hyper": true,
+      "ipfs": true
+    },
+    "id": "bitacoradigital.sutty.nl",
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://bitacoradigital.sutty.nl"
+      },
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://bitacoradigital.sutty.nl/",
+        "gateway": "https://bitacoradigital-sutty-nl.ipns.ipfs.hypha.coop",
+        "cid": "bafybeibyo2bbqojthjxdgtizz6mpn5whblii6gq5xv4xbexbqyr5d3c47e",
+        "pubKey": "ipns://k51qzi5uqu5dhhrryrnbzkimvrs2cvv5qep0tu49qiek72atdzd6tsnalyl1a9/",
+        "dnslink": "/ipns/k51qzi5uqu5dhhrryrnbzkimvrs2cvv5qep0tu49qiek72atdzd6tsnalyl1a9/"
+      },
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://bitacoradigital.sutty.nl",
+        "gateway": "https://bitacoradigital-sutty-nl.hyper.hypha.coop/",
+        "raw": "hyper://p1zff9ranzrtqa46z958njuij6zuyajqrsktqccp6tpe6e9y119y/",
+        "dnslink": "/hyper/p1zff9ranzrtqa46z958njuij6zuyajqrsktqccp6tpe6e9y119y/"
+      }
+    },
+    "metadata": {
+      "title": "Bitácora digital | ¡Este espacio es la versión Fediversa de nuestro proyecto!",
+      "description": "Somos un proyecto digital con presencia en muchas redes, ahora también en Fediverso"
+    }
+  },
+  {
+    "domain": "distributed.press",
+    "public": true,
+    "protocols": {
+      "http": true,
+      "hyper": true,
+      "ipfs": true
+    },
+    "id": "distributed.press",
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://distributed.press"
+      },
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://distributed.press/",
+        "gateway": "https://distributed-press.ipns.ipfs.hypha.coop",
+        "cid": "bafybeidewdrqd6al2m6mjmi53yhfj5ehnswo6tdvzjodpgur23kylxhulm",
+        "pubKey": "ipns://k51qzi5uqu5diq6ds8amf7hpimiynnh66nkntebxfoby6gc388eh6fjqcwhqd1/",
+        "dnslink": "/ipns/k51qzi5uqu5diq6ds8amf7hpimiynnh66nkntebxfoby6gc388eh6fjqcwhqd1/"
+      },
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://distributed.press",
+        "gateway": "https://distributed-press.hyper.hypha.coop/",
+        "raw": "hyper://rc3xtq5m54imyno5biwzbdmdzx9citb9ubdz56kogzc4xra5kzgy/",
+        "dnslink": "/hyper/rc3xtq5m54imyno5biwzbdmdzx9citb9ubdz56kogzc4xra5kzgy/"
+      }
+    },
+    "metadata": {
+      "title": "Home | Distributed Press",
+      "description": "DP"
+    }
+  },
+  {
+    "domain": "ranger.mauve.moe",
+    "public": true,
+    "protocols": {
+      "http": true,
+      "hyper": true,
+      "ipfs": true
+    },
+    "id": "ranger.mauve.moe",
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://ranger.mauve.moe"
+      },
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://ranger.mauve.moe",
+        "gateway": "https://ranger-mauve-moe.hyper.hypha.coop/",
+        "raw": "hyper://xxsog44z58458te7gkxgrggmxwastm94om6d9n1hjsjtsi7rt9wo/",
+        "dnslink": "/hyper/xxsog44z58458te7gkxgrggmxwastm94om6d9n1hjsjtsi7rt9wo/"
+      },
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://ranger.mauve.moe/",
+        "gateway": "https://ranger-mauve-moe.ipns.ipfs.hypha.coop",
+        "cid": "bafybeibwjxk563q3lw226qdlptwzvjk7skyfsbblqa4jc4ulhuftcevqsi",
+        "pubKey": "ipns://k51qzi5uqu5dkyebpkw5k4kkecddn0bnd9zch18g9bpb4htoulp439uyb4gugc/",
+        "dnslink": "/ipns/k51qzi5uqu5dkyebpkw5k4kkecddn0bnd9zch18g9bpb4htoulp439uyb4gugc/"
+      }
+    },
+    "metadata": {
+      "title": "RangerMauve",
+      "description": "A Canadian tech enthusiast with a passion for decentralization."
+    }
+  },
+  {
+    "public": true,
+    "domain": "savethearchive.com",
+    "protocols": {
+      "http": true,
+      "hyper": true,
+      "ipfs": true
+    },
+    "id": "savethearchive.com",
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://savethearchive.com"
+      },
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://savethearchive.com/",
+        "gateway": "https://savethearchive-com.ipns.ipfs.hypha.coop",
+        "cid": "bafybeiczsscdsbs7ffqz55asqdf3smv6klcw3gofszvwlyarci47bgf354",
+        "pubKey": "ipns://k51qzi5uqu5dgt0xpdpyo0128l1xoofh28u9eroxx7f90qn4mmchnnxyqh4awh/",
+        "dnslink": "/ipns/k51qzi5uqu5dgt0xpdpyo0128l1xoofh28u9eroxx7f90qn4mmchnnxyqh4awh/"
+      },
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://savethearchive.com",
+        "gateway": "https://savethearchive-com.hyper.hypha.coop/",
+        "raw": "hyper://74sagnbg4ax3m76r7rrwgrfmyk1zuh1gbwu3uqgu6un8eg4tujqy/",
+        "dnslink": "/hyper/74sagnbg4ax3m76r7rrwgrfmyk1zuh1gbwu3uqgu6un8eg4tujqy/"
+      }
+    },
+    "metadata": {
+      "title": "Save Music, Save the Archive!",
+      "description": "No Description Available"
+    }
+  },
+  {
+    "domain": "staticpub.distributed.press",
+    "public": true,
+    "protocols": {
+      "http": true,
+      "hyper": true,
+      "ipfs": true
+    },
+    "id": "staticpub.distributed.press",
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://staticpub.distributed.press"
+      },
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://staticpub.distributed.press",
+        "gateway": "https://staticpub-distributed-press.hyper.hypha.coop/",
+        "raw": "hyper://5e9onxgyetqoxw5j5g3b69syo1dirjgsstycywjfk6dtukh5z5iy/",
+        "dnslink": "/hyper/5e9onxgyetqoxw5j5g3b69syo1dirjgsstycywjfk6dtukh5z5iy/"
+      },
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://staticpub.distributed.press/",
+        "gateway": "https://staticpub-distributed-press.ipns.ipfs.hypha.coop",
+        "cid": "bafybeidfnxatdcn2yoei5vxck6j4btjxbs3kesh7wx7bmlwqzpir7j5b7e",
+        "pubKey": "ipns://k51qzi5uqu5dio89yvzf82x8wscf5zmgcl9y37k3hmtak0uxgri6m52worlkpr/",
+        "dnslink": "/ipns/k51qzi5uqu5dio89yvzf82x8wscf5zmgcl9y37k3hmtak0uxgri6m52worlkpr/"
+      }
+    },
+    "metadata": {
+      "title": "Welcome to Your Static Site",
+      "description": "No Description Available"
+    }
+  },
+  {
+    "domain": "sutty.nl",
+    "public": true,
+    "protocols": {
+      "http": true,
+      "hyper": true,
+      "ipfs": true
+    },
+    "id": "sutty.nl",
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://sutty.nl"
+      },
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://sutty.nl/",
+        "gateway": "https://sutty-nl.ipns.ipfs.hypha.coop",
+        "cid": "bafybeib7bqxqbefntlsuuf2o6iulj3ewxhd2f2s2ig5j65xbar3s3k356u",
+        "pubKey": "ipns://k51qzi5uqu5dlcg1b4blmevb6d12nmpi8z5r49ix0gotnmmxuvgasfif6i2l6m/",
+        "dnslink": "/ipns/k51qzi5uqu5dlcg1b4blmevb6d12nmpi8z5r49ix0gotnmmxuvgasfif6i2l6m/"
+      },
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://sutty.nl",
+        "gateway": "https://sutty-nl.hyper.hypha.coop/",
+        "raw": "hyper://7o7f1nb6brn8a3y6ynn88nt8kebwhnkf6c359pqy1zjgbctimj4o/",
+        "dnslink": "/hyper/7o7f1nb6brn8a3y6ynn88nt8kebwhnkf6c359pqy1zjgbctimj4o/"
+      }
+    },
+    "metadata": {
+      "title": "Sutty | Sutty crea sitios seguros, veloces y visibles para organizaciones, colectivas y activistasSuttySuttyLogo de SuttySuttySuttyUn signo de exclamación que late para llamar la atención.SuttyUn símbolo de mayor \">\"SuttyUn símbolo de numeral \"#\"Un asterisco \"*\"SuttyUn ñuflo, el símbolo de la ñ \"~\"Un circunflejo \"^\"SuttySutty",
+      "description": "Sutty crea sitios seguros, veloces y visibles para organizaciones, colectivas y activistas"
+    }
+  },
+  {
+    "domain": "three.compost.digital",
+    "public": true,
+    "protocols": {
+      "http": true,
+      "hyper": false,
+      "ipfs": true
+    },
+    "id": "three.compost.digital",
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://three.compost.digital"
+      },
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://three.compost.digital",
+        "gateway": "https://three-compost-digital.hyper.hypha.coop/",
+        "raw": "hyper://4xebregpd5a9xx1xs5nuuxiatxfe5g9345ixg8xjkps58sfmpiry/",
+        "dnslink": "/hyper/4xebregpd5a9xx1xs5nuuxiatxfe5g9345ixg8xjkps58sfmpiry/"
+      },
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://three.compost.digital/",
+        "gateway": "https://three-compost-digital.ipns.ipfs.hypha.coop",
+        "cid": "bafybeihcgduwhf6pib75rc6g6tk3iirzn6i5t4ndqttcdwp6yociul25qu",
+        "pubKey": "ipns://k51qzi5uqu5dg9p212ngoqpmayhhewp57jj5telumin0bc4cd42w2yoor5mvjc/",
+        "dnslink": "/ipns/k51qzi5uqu5dg9p212ngoqpmayhhewp57jj5telumin0bc4cd42w2yoor5mvjc/"
+      }
+    },
+    "metadata": {
+      "title": "COMPOST ISSUE 03 | COMPOST ISSUE 03: Water Bodies",
+      "description": "COMPOST ISSUE 03: Water Bodies"
+    }
+  },
+  {
+    "domain": "try.distributed.press",
+    "public": true,
+    "protocols": {
+      "http": true,
+      "hyper": true,
+      "ipfs": true
+    },
+    "id": "try.distributed.press",
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://try.distributed.press"
+      },
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://try.distributed.press",
+        "gateway": "https://try-distributed-press.hyper.hypha.coop/",
+        "raw": "hyper://izbnmk1op7zr6uwnbjda8rec43bqk6ti9mgnza6pixe1y1mu6tho/",
+        "dnslink": "/hyper/izbnmk1op7zr6uwnbjda8rec43bqk6ti9mgnza6pixe1y1mu6tho/"
+      },
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://try.distributed.press/",
+        "gateway": "https://try-distributed-press.ipns.ipfs.hypha.coop",
+        "cid": "bafybeibqfn6nomxipoolfovfelz2e3zevgk5smwqlr66pozquzwr34v3yi",
+        "pubKey": "ipns://k51qzi5uqu5diu2cz3yegl4dmfsw3o47jcfouwk8dgwu8s0uwv8gd29wkey3zm/",
+        "dnslink": "/ipns/k51qzi5uqu5diu2cz3yegl4dmfsw3o47jcfouwk8dgwu8s0uwv8gd29wkey3zm/"
+      }
+    },
+    "metadata": {
+      "title": "No Title Available",
+      "description": "No Description Available"
+    }
+  },
+  {
+    "public": true,
+    "domain": "www.fightforthefuture.org",
+    "protocols": {
+      "http": true,
+      "hyper": true,
+      "ipfs": true
+    },
+    "id": "www.fightforthefuture.org",
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://www.fightforthefuture.org"
+      },
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://www.fightforthefuture.org",
+        "gateway": "https://www-fightforthefuture-org.hyper.hypha.coop/",
+        "raw": "hyper://5dm5oaq97fqdjdjto6z8ieqi7ryzyffc4qsp48sf3p994tgsthro/",
+        "dnslink": "/hyper/5dm5oaq97fqdjdjto6z8ieqi7ryzyffc4qsp48sf3p994tgsthro/"
+      },
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://www.fightforthefuture.org/",
+        "gateway": "https://www-fightforthefuture-org.ipns.ipfs.hypha.coop",
+        "cid": "bafybeiczfallngzh6vc2q4spq4afqdd7opfoqezwygolrxii5sbyeta5ue",
+        "pubKey": "ipns://k51qzi5uqu5dipa4u1p23edsv8jub2pl4zm635hapt52po19o0fplsvlv0g0bf/",
+        "dnslink": "/ipns/k51qzi5uqu5dipa4u1p23edsv8jub2pl4zm635hapt52po19o0fplsvlv0g0bf/"
+      }
+    },
+    "metadata": {
+      "title": "Fight for the Future",
+      "description": "No Description Available"
+    }
+  },
+  {
+    "public": true,
+    "domain": "www.keepkhan.com",
+    "protocols": {
+      "http": true,
+      "hyper": true,
+      "ipfs": true
+    },
+    "id": "www.keepkhan.com",
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://www.keepkhan.com"
+      },
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://www.keepkhan.com",
+        "gateway": "https://www-keepkhan-com.hyper.hypha.coop/",
+        "raw": "hyper://sj1ko1ifpqwoujmm9suc66q1i5pbzfsbptnwcpxmqgaa7zunie6o/",
+        "dnslink": "/hyper/sj1ko1ifpqwoujmm9suc66q1i5pbzfsbptnwcpxmqgaa7zunie6o/"
+      },
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://www.keepkhan.com/",
+        "gateway": "https://www-keepkhan-com.ipns.ipfs.hypha.coop",
+        "cid": "bafybeie2p5xivgk6rxgm2eemaypeeidpf7hocri2fgnr7pnxoplhhvfhpm",
+        "pubKey": "ipns://k51qzi5uqu5dkif16furxzim98l44adw2h5r8ghecispdjfrn47jsfne6969b3/",
+        "dnslink": "/ipns/k51qzi5uqu5dkif16furxzim98l44adw2h5r8ghecispdjfrn47jsfne6969b3/"
+      }
+    },
+    "metadata": {
+      "title": "Keep Lina Khan",
+      "description": "No Description Available"
+    }
+  },
+  {
+    "public": true,
+    "domain": "www.savethearchive.com",
+    "protocols": {
+      "http": true,
+      "hyper": true,
+      "ipfs": true
+    },
+    "id": "www.savethearchive.com",
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://www.savethearchive.com"
+      },
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://www.savethearchive.com",
+        "gateway": "https://www-savethearchive-com.hyper.hypha.coop/",
+        "raw": "hyper://jsxjtfrdtxqyurmfnywpkuwoju4ybrrjgrx9qia13epeorbic9eo/",
+        "dnslink": "/hyper/jsxjtfrdtxqyurmfnywpkuwoju4ybrrjgrx9qia13epeorbic9eo/"
+      },
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://www.savethearchive.com/",
+        "gateway": "https://www-savethearchive-com.ipns.ipfs.hypha.coop",
+        "cid": "bafybeigfl7espuotaqh3gayzgvcf2tcopenlbcjmr5dv5vtlr25qdxxfby",
+        "pubKey": "ipns://k51qzi5uqu5dgtk5uyo6yl3b583ljhvx6l6idir13hjhnxjlu8vtu9ohxwv4lz/",
+        "dnslink": "/ipns/k51qzi5uqu5dgtk5uyo6yl3b583ljhvx6l6idir13hjhnxjlu8vtu9ohxwv4lz/"
+      }
+    },
+    "metadata": {
+      "title": "Save Music, Save the Archive!",
+      "description": "No Description Available"
+    }
+  }
+]
