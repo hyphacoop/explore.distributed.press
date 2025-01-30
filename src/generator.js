@@ -1,11 +1,20 @@
 import fs from 'fs-extra'
 import path from 'path'
+import sanitizeHtml from 'sanitize-html'
 import { fileURLToPath } from 'url'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 function trimHash (hash, length = 20) {
   return hash.length > length ? `${hash.slice(0, length)}...` : hash
+}
+
+// Sanitize all text content to prevent XSS
+function sanitizeText (text) {
+  return sanitizeHtml(text, {
+    allowedTags: [], // Remove all HTML tags
+    allowedAttributes: {} // Remove all attributes
+  })
 }
 
 // Manually list organizational subdomains that should be prioritized
@@ -114,16 +123,16 @@ function generateHTML (sites) {
                 .map(
                   (site) => `
                   <tr>
-                    <td><a href="${site.links.http?.link || '#'}" target="_blank">${site.domain}</a></td>
-                    <td>${site.metadata.title || 'No Title Available'}</td>
-                    <td>${site.metadata.description || 'No Description Available'}</td>
+                    <td><a href="${sanitizeText(site.links.http?.link || '#')}" target="_blank">${sanitizeText(site.domain)}</a></td>
+                    <td>${sanitizeText(site.metadata.title || 'No Title Available')}</td>
+                    <td>${sanitizeText(site.metadata.description || 'No Description Available')}</td>
                     <td>
-                      ${site.links.http?.link ? `<a href="${site.links.http.link}" target="_blank">[http]</a>` : ''}
-                      ${site.links.ipfs?.enabled ? `<a href="https://ipfs.hypha.coop/ipns/${site.domain}/" target="_blank">[ipfs]</a>` : ''}
-                      ${site.links.hyper?.enabled ? `<a href="https://hyper.hypha.coop/hyper/${site.domain}/" target="_blank">[hyper]</a>` : ''}
+                      ${site.links.http?.link ? `<a href="${sanitizeText(site.links.http.link)}" target="_blank">[http]</a>` : ''}
+                      ${site.links.ipfs?.enabled ? `<a href="https://ipfs.hypha.coop/ipns/${sanitizeText(site.domain)}/" target="_blank">[ipfs]</a>` : ''}
+                      ${site.links.hyper?.enabled ? `<a href="https://hyper.hypha.coop/hyper/${sanitizeText(site.domain)}/" target="_blank">[hyper]</a>` : ''}
                     </td>
-                    <td>${site.links.ipfs?.pubKey ? `<a href="${site.links.ipfs.pubKey}" target="_blank">${trimHash(site.links.ipfs.pubKey)}</a>` : 'Not Available'}</td>
-                    <td>${site.links.hyper?.raw ? `<a href="${site.links.hyper.raw}" target="_blank">${trimHash(site.links.hyper.raw)}</a>` : 'Not Available'}</td>
+                    <td>${site.links.ipfs?.pubKey ? `<a href="${sanitizeText(site.links.ipfs.pubKey)}" target="_blank">${sanitizeText(trimHash(site.links.ipfs.pubKey))}</a>` : 'Not Available'}</td>
+                    <td>${site.links.hyper?.raw ? `<a href="${sanitizeText(site.links.hyper.raw)}" target="_blank">${sanitizeText(trimHash(site.links.hyper.raw))}</a>` : 'Not Available'}</td>
                   </tr>
                   `
                 )
