@@ -8,8 +8,57 @@ function trimHash (hash, length = 20) {
   return hash.length > length ? `${hash.slice(0, length)}...` : hash
 }
 
+// Manually list organizational subdomains that should be prioritized
+const prioritizedSubdomains = [
+  'try.distributed.press',
+  'three.compost.digital'
+]
+
+// Function to check if the domain is a root domain or a subdomain
+function isRootDomain (domain) {
+  const parts = domain.split('.')
+  return parts.length <= 2 || domain.startsWith('www.') || prioritizedSubdomains.includes(domain)
+}
+
+// Function to filter out non-www duplicates
+function filterSites (sites) {
+  const domainMap = new Map()
+
+  sites.forEach(site => {
+    const baseDomain = site.domain.replace(/^www\./, '')
+
+    if (!domainMap.has(baseDomain)) {
+      domainMap.set(baseDomain, site)
+    } else if (site.domain.startsWith('www.')) {
+      domainMap.set(baseDomain, site) // Keep www. version if both exist
+    }
+  })
+
+  return Array.from(domainMap.values())
+}
+
+// Sort sites: Root domains and prioritized subdomains first, other subdomains later
+function sortSites (sites) {
+  return sites.sort((a, b) => {
+    const aRoot = isRootDomain(a.domain)
+    const bRoot = isRootDomain(b.domain)
+
+    if (aRoot && !bRoot) return -1
+    if (!aRoot && bRoot) return 1
+
+    const aIsSutty = a.domain.endsWith('.sutty.nl')
+    const bIsSutty = b.domain.endsWith('.sutty.nl')
+    if (aIsSutty && !bIsSutty) return 1
+    if (!aIsSutty && bIsSutty) return -1
+
+    return a.domain.localeCompare(b.domain) // Alphabetical sorting as a fallback
+  })
+}
+
 function generateHTML (sites) {
-  const totalCount = sites.length
+  const filteredSites = filterSites(sites)
+  const sortedSites = sortSites(filteredSites)
+  const totalCount = sortedSites.length
 
   const htmlContent = `
     <!DOCTYPE html>
@@ -61,7 +110,7 @@ function generateHTML (sites) {
               </tr>
             </thead>
             <tbody>
-              ${sites
+              ${sortedSites
                 .map(
                   (site) => `
                   <tr>
@@ -69,36 +118,12 @@ function generateHTML (sites) {
                     <td>${site.metadata.title || 'No Title Available'}</td>
                     <td>${site.metadata.description || 'No Description Available'}</td>
                     <td>
-                      ${
-                        site.links.http?.link
-                          ? `<a href="${site.links.http.link}" target="_blank">[http]</a>`
-                          : ''
-                      }
-                      ${
-                        site.links.ipfs?.enabled
-                          ? `<a href="https://ipfs.hypha.coop/ipns/${site.domain}/" target="_blank">[ipfs]</a>`
-                          : ''
-                      }
-                      ${
-                        site.links.hyper?.enabled
-                          ? `<a href="https://hyper.hypha.coop/hyper/${site.domain}/" target="_blank">[hyper]</a>`
-                          : ''
-                      }
+                      ${site.links.http?.link ? `<a href="${site.links.http.link}" target="_blank">[http]</a>` : ''}
+                      ${site.links.ipfs?.enabled ? `<a href="https://ipfs.hypha.coop/ipns/${site.domain}/" target="_blank">[ipfs]</a>` : ''}
+                      ${site.links.hyper?.enabled ? `<a href="https://hyper.hypha.coop/hyper/${site.domain}/" target="_blank">[hyper]</a>` : ''}
                     </td>
-                    <td>${
-                      site.links.ipfs?.pubKey
-                        ? `<a href="${site.links.ipfs.pubKey}" target="_blank">${trimHash(
-                            site.links.ipfs.pubKey
-                          )}</a>`
-                        : 'Not Available'
-                    }</td>
-                    <td>${
-                      site.links.hyper?.raw
-                        ? `<a href="${site.links.hyper.raw}" target="_blank">${trimHash(
-                            site.links.hyper.raw
-                          )}</a>`
-                        : 'Not Available'
-                    }</td>
+                    <td>${site.links.ipfs?.pubKey ? `<a href="${site.links.ipfs.pubKey}" target="_blank">${trimHash(site.links.ipfs.pubKey)}</a>` : 'Not Available'}</td>
+                    <td>${site.links.hyper?.raw ? `<a href="${site.links.hyper.raw}" target="_blank">${trimHash(site.links.hyper.raw)}</a>` : 'Not Available'}</td>
                   </tr>
                   `
                 )

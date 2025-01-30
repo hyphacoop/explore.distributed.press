@@ -31,6 +31,68 @@
     }
   },
   {
+    "domain": "brasil.dweb.camp.",
+    "protocols": {
+      "http": false,
+      "ipfs": true,
+      "hyper": true
+    },
+    "public": true,
+    "id": "brasil.dweb.camp.",
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://brasil.dweb.camp."
+      },
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://brasil.dweb.camp.",
+        "gateway": "https://brasil-dweb-camp-.hyper.hypha.coop/",
+        "raw": "hyper://sks76guzmwyofganijtxoqfk7gt9zpj16j157utbwxmdkox8nsro/",
+        "dnslink": "/hyper/sks76guzmwyofganijtxoqfk7gt9zpj16j157utbwxmdkox8nsro/"
+      },
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://brasil.dweb.camp./",
+        "gateway": "https://brasil-dweb-camp-.ipns.ipfs.hypha.coop",
+        "cid": "bafybeib44swz34oivqhbq2a2y7ldkqej4f7bfmldqr273zhdb47bqy5nau",
+        "pubKey": "ipns://k51qzi5uqu5djav1q2ccpd2hv7ly77rdu6k4hlpe2f0a7lgbustrm1aorris3q/",
+        "dnslink": "/ipns/k51qzi5uqu5djav1q2ccpd2hv7ly77rdu6k4hlpe2f0a7lgbustrm1aorris3q/"
+      }
+    }
+  },
+  {
+    "domain": "ciudadradio",
+    "protocols": {
+      "http": false,
+      "ipfs": true,
+      "hyper": true
+    },
+    "public": true,
+    "id": "ciudadradio",
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://ciudadradio"
+      },
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://ciudadradio",
+        "gateway": "https://ciudadradio.hyper.hypha.coop/",
+        "raw": "hyper://ska5u5kemghhfe5hmwq36bs14tbn1mupsbp9rgsu837xt8pg6tby/",
+        "dnslink": "/hyper/ska5u5kemghhfe5hmwq36bs14tbn1mupsbp9rgsu837xt8pg6tby/"
+      },
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://ciudadradio/",
+        "gateway": "https://ciudadradio.ipns.ipfs.hypha.coop",
+        "cid": "bafybeibanxkvkd74z4stdjk4svb347kf7lvhruz6j42myxuy7us3gtxkhe",
+        "pubKey": "ipns://k51qzi5uqu5dganf2rf30wyrdn15wswtsjmi8wk2o2vsb6wo5pmxuerf4floj7/",
+        "dnslink": "/ipns/k51qzi5uqu5dganf2rf30wyrdn15wswtsjmi8wk2o2vsb6wo5pmxuerf4floj7/"
+      }
+    }
+  },
+  {
     "domain": "dp.akhilesh.art",
     "public": true,
     "protocols": {
