@@ -31,9 +31,9 @@ Some sites may not be auto-crawled, but you can manually add them. To do this, e
 ]
 ```
 
-- After adding sites, generate the index by running:
+After adding sites, generate the index by running:
 ```sh
 npm start
 ```
 
-This will generate files for the indexer in the `[./public](./public/)` directory.
+This will generate files for the indexer in the [public](./public/) directory.
