@@ -490,6 +490,41 @@
     }
   },
   {
+    "domain": "compost.digital",
+    "protocols": {
+      "http": true,
+      "hyper": true,
+      "ipfs": true
+    },
+    "id": "compost.digital",
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://compost.digital"
+      },
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://compost.digital",
+        "gateway": "https://compost-digital.hyper.hypha.coop/",
+        "raw": "hyper://azn99wephjq5xfc9f3k4mo4iehdqz1ews1rkj7fuayf9nzhyuwky/",
+        "dnslink": "/hyper/azn99wephjq5xfc9f3k4mo4iehdqz1ews1rkj7fuayf9nzhyuwky/"
+      },
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://compost.digital/",
+        "gateway": "https://compost-digital.ipns.ipfs.hypha.coop",
+        "cid": "bafybeic4siioiz3denwvnbmpnff3x3pyfu6tc4kowj3o3hh5a2lkw7skce",
+        "pubKey": "ipns://k51qzi5uqu5dhc1s34caalg3vdo2w88d1jace6iki8cel737052q6fh7j17rki/",
+        "dnslink": "/ipns/k51qzi5uqu5dhc1s34caalg3vdo2w88d1jace6iki8cel737052q6fh7j17rki/"
+      }
+    },
+    "public": true,
+    "metadata": {
+      "title": "Redirecting to three.compost.digital",
+      "description": "No Description Available"
+    }
+  },
+  {
     "domain": "crispro941.sutty.nl",
     "protocols": {
       "http": false,
@@ -647,7 +682,7 @@
         "enabled": true,
         "link": "ipns://distributed.press/",
         "gateway": "https://distributed-press.ipns.ipfs.hypha.coop",
-        "cid": "bafybeidewdrqd6al2m6mjmi53yhfj5ehnswo6tdvzjodpgur23kylxhulm",
+        "cid": "bafybeigxiyttkilecuzrxi6r5wnkevo5m3lw37w6j2n6sd6bcsxjqyhtem",
         "pubKey": "ipns://k51qzi5uqu5diq6ds8amf7hpimiynnh66nkntebxfoby6gc388eh6fjqcwhqd1/",
         "dnslink": "/ipns/k51qzi5uqu5diq6ds8amf7hpimiynnh66nkntebxfoby6gc388eh6fjqcwhqd1/"
       },
@@ -697,6 +732,41 @@
     "metadata": {
       "title": "dixit, una editorial artesanal | Una editorial artesanal y autogestiva.",
       "description": "Publicamos “dixits” de pensadores, autores y artistas."
+    }
+  },
+  {
+    "domain": "docs.distributed.press",
+    "protocols": {
+      "http": true,
+      "hyper": true,
+      "ipfs": true
+    },
+    "id": "docs.distributed.press",
+    "links": {
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://docs.distributed.press",
+        "gateway": "https://docs-distributed-press.hyper.hypha.coop/",
+        "raw": "hyper://smqq19f3gbbz7sn9zko589az9x8ip4ky5g4nce5rnzgywfi13qso/",
+        "dnslink": "/hyper/smqq19f3gbbz7sn9zko589az9x8ip4ky5g4nce5rnzgywfi13qso/"
+      },
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://docs.distributed.press/",
+        "gateway": "https://docs-distributed-press.ipns.ipfs.hypha.coop",
+        "cid": "bafybeicmjfvzp33ohcrjcnzzhfzxlotou4ctrhweg4d2umy5mxqryqcsii",
+        "pubKey": "ipns://k51qzi5uqu5dicruj8whyde1z5vtm2tg6q1gey17nb2trkuh4b0m69sl6z85cw/",
+        "dnslink": "/ipns/k51qzi5uqu5dicruj8whyde1z5vtm2tg6q1gey17nb2trkuh4b0m69sl6z85cw/"
+      },
+      "http": {
+        "enabled": true,
+        "link": "https://docs.distributed.press"
+      }
+    },
+    "public": true,
+    "metadata": {
+      "title": "Distributed Press – Distributed PressGitHub",
+      "description": "No Description Available"
     }
   },
   {
@@ -759,14 +829,14 @@
         "enabled": true,
         "link": "ipns://dolagasape.sutty.nl/",
         "gateway": "https://dolagasape-sutty-nl.ipns.ipfs.hypha.coop",
-        "cid": "bafybeieacbmwj34mrfepqv4l2du462jmvz7icnqmkmudfkfc57lfyjyg7u",
+        "cid": "bafybeidefytd3m7qnnhwdrrddbuwm3jzt6y5rqburuirk6bnuw3rafiyiy",
         "pubKey": "ipns://k51qzi5uqu5diuz448ecpx8bsh6m6lzag8y2anb704rpu1bu468abz7hmnxyp3/",
         "dnslink": "/ipns/k51qzi5uqu5diuz448ecpx8bsh6m6lzag8y2anb704rpu1bu468abz7hmnxyp3/"
       }
     },
     "metadata": {
-      "title": "DOLAGASAPE | ✒️FICCIONES Y OTRAS YERBAS: son mis historias apócrifas de una vida real.",
-      "description": "✒️FICCIONES Y OTRAS YERBAS: son mis historias apócrifas de una vida real."
+      "title": "DOLAGASAPE | Un blog sobre FICCIONES Y OTRAS YERBAS: son mis historias apócrifas de una vida real.",
+      "description": "Habladurías, chapucerías, cursilerías, verdulerías, ficcionerías; palabras, despojos de tinta sobre el papel, pantallas contaminadas por texturas tipográficas, eso es este espacio virtual, un refugio donde la ficción me protege de la realidad cotidiana. Soy el Dolagasape, te invito a recorrer mis historias apócrifas de una vida real y, si te apetece, compartirlas. Porque compartir siempre es bueno. Me podés escribir a dolagasape@riseup.net"
     }
   },
   {
@@ -864,13 +934,13 @@
         "enabled": true,
         "link": "ipns://dweb.sutty.nl/",
         "gateway": "https://dweb-sutty-nl.ipns.ipfs.hypha.coop",
-        "cid": "bafybeibxpymgxp5fq2x3gcqvo47ky6xbmuqc6pcdt4bswl3kldbrsbekz4",
+        "cid": "bafybeidqy7o65vccvvofexbb7dwcjaufvghzi57uwivemhow5qhwjolaia",
         "pubKey": "ipns://k51qzi5uqu5dlzyg62oq91zg4blw1033xri9an7kh1vdyofw6xupsfinq04i2z/",
         "dnslink": "/ipns/k51qzi5uqu5dlzyg62oq91zg4blw1033xri9an7kh1vdyofw6xupsfinq04i2z/"
       }
     },
     "metadata": {
-      "title": "Web Distribuida (dWeb). Por Sutty | Nodo de la web distribuida (dWeb) en Argentina y Latinoamérica, facilitado por Sutty",
+      "title": "Nodo dWeb Sudaka | Nodo dWeb Sudaka",
       "description": "Nodo de la web distribuida (dWeb) en Argentina y Latinoamérica, facilitado por Sutty"
     }
   },
@@ -1155,6 +1225,76 @@
     }
   },
   {
+    "domain": "explore.distributed.press",
+    "protocols": {
+      "http": true,
+      "hyper": true,
+      "ipfs": true
+    },
+    "public": true,
+    "id": "explore.distributed.press",
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://explore.distributed.press"
+      },
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://explore.distributed.press",
+        "gateway": "https://explore-distributed-press.hyper.hypha.coop/",
+        "raw": "hyper://uiiepke7ke89rmux7j7qc8ucupzi9of4p9tuctfw3s85dewoswzy/",
+        "dnslink": "/hyper/uiiepke7ke89rmux7j7qc8ucupzi9of4p9tuctfw3s85dewoswzy/"
+      },
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://explore.distributed.press/",
+        "gateway": "https://explore-distributed-press.ipns.ipfs.hypha.coop",
+        "cid": "bafybeifjrddzlkb4me4ylhpi44fd6kkzwoubnrz7mx7of6uawgziuc3vu4",
+        "pubKey": "ipns://k51qzi5uqu5dj1xepds03eeaywh8j0nty3oe361rtz2w18k4t9gkf6h27ydtxh/",
+        "dnslink": "/ipns/k51qzi5uqu5dj1xepds03eeaywh8j0nty3oe361rtz2w18k4t9gkf6h27ydtxh/"
+      }
+    },
+    "metadata": {
+      "title": "Distributed Press Site Index",
+      "description": "Explore the Distributed Press ecosystem. Find sites leveraging decentralized publishing."
+    }
+  },
+  {
+    "domain": "ffdweb.org",
+    "protocols": {
+      "http": true,
+      "hyper": true,
+      "ipfs": true
+    },
+    "public": true,
+    "id": "ffdweb.org",
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://ffdweb.org"
+      },
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://ffdweb.org",
+        "gateway": "https://ffdweb-org.hyper.hypha.coop/",
+        "raw": "hyper://1ct74ziuc1ibnf6k6mafwss3cf17oxwnotz34tzcwtafw5o9hp8y/",
+        "dnslink": "/hyper/1ct74ziuc1ibnf6k6mafwss3cf17oxwnotz34tzcwtafw5o9hp8y/"
+      },
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://ffdweb.org/",
+        "gateway": "https://ffdweb-org.ipns.ipfs.hypha.coop",
+        "cid": "bafybeif3cokfer7txgsomkopgwnvj4ibwrv3xybvglsm5trd2iecszoxpm",
+        "pubKey": "ipns://k51qzi5uqu5dkd1lhb3lg30xztrc97q3iwy2g2vy1mp6y8ng1d6piigarjyjjz/",
+        "dnslink": "/ipns/k51qzi5uqu5dkd1lhb3lg30xztrc97q3iwy2g2vy1mp6y8ng1d6piigarjyjjz/"
+      }
+    },
+    "metadata": {
+      "title": "FFDWeb",
+      "description": "No Description Available"
+    }
+  },
+  {
     "domain": "first-site.sutty.nl",
     "protocols": {
       "http": false,
@@ -1187,6 +1327,111 @@
     "metadata": {
       "title": "First Sutty Site | Text about this site",
       "description": "Text about this site"
+    }
+  },
+  {
+    "domain": "handbook.hypha.coop",
+    "protocols": {
+      "http": true,
+      "hyper": true,
+      "ipfs": true
+    },
+    "public": true,
+    "id": "handbook.hypha.coop",
+    "links": {
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://handbook.hypha.coop",
+        "gateway": "https://handbook-hypha-coop.hyper.hypha.coop/",
+        "raw": "hyper://ujwz78uocfowdkz57km47w89m5dtrgwj6jfmp83b8nq7buy9kuco/",
+        "dnslink": "/hyper/ujwz78uocfowdkz57km47w89m5dtrgwj6jfmp83b8nq7buy9kuco/"
+      },
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://handbook.hypha.coop/",
+        "gateway": "https://handbook-hypha-coop.ipns.ipfs.hypha.coop",
+        "cid": "bafybeif2meg6jqnqv2ii77ezsmeqp766wpez5yo55lkbvzziul7hxlfwoy",
+        "pubKey": "ipns://k51qzi5uqu5djngcb5ju72w6n8c6wuohqww4w0k0s6ye3ac99n6ae0wuulfckn/",
+        "dnslink": "/ipns/k51qzi5uqu5djngcb5ju72w6n8c6wuohqww4w0k0s6ye3ac99n6ae0wuulfckn/"
+      },
+      "http": {
+        "enabled": true,
+        "link": "https://handbook.hypha.coop"
+      }
+    },
+    "metadata": {
+      "title": "Introduction · H₂O",
+      "description": "No Description Available"
+    }
+  },
+  {
+    "domain": "haven.day",
+    "public": true,
+    "protocols": {
+      "http": true,
+      "hyper": true,
+      "ipfs": true
+    },
+    "id": "haven.day",
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://haven.day"
+      },
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://haven.day",
+        "gateway": "https://haven-day.hyper.hypha.coop/",
+        "raw": "hyper://5szook6tsok59x598iagfjc8omqqryhjctbcxwgyydt67g7adfxo/",
+        "dnslink": "/hyper/5szook6tsok59x598iagfjc8omqqryhjctbcxwgyydt67g7adfxo/"
+      },
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://haven.day/",
+        "gateway": "https://haven-day.ipns.ipfs.hypha.coop",
+        "cid": "bafybeidtkusn7ytj2cl3xfp2hh6gfhgbpyp5rn46coebqjpqnsx6pafvfu",
+        "pubKey": "ipns://k51qzi5uqu5dm5nx6a17el0g4ysqjsh1q8zpnyrv9tyo5fnh8b2khjf0n1sxxw/",
+        "dnslink": "/ipns/k51qzi5uqu5dm5nx6a17el0g4ysqjsh1q8zpnyrv9tyo5fnh8b2khjf0n1sxxw/"
+      }
+    },
+    "metadata": {
+      "title": "haven",
+      "description": "community health data"
+    }
+  },
+  {
+    "domain": "hypha.coop",
+    "protocols": {
+      "http": true,
+      "hyper": true,
+      "ipfs": true
+    },
+    "id": "hypha.coop",
+    "links": {
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://hypha.coop",
+        "gateway": "https://hypha-coop.hyper.hypha.coop/",
+        "raw": "hyper://zdouwaei9kc5zbk93w5dakbr8maayupojthf3eafo16s4d5pbsry/",
+        "dnslink": "/hyper/zdouwaei9kc5zbk93w5dakbr8maayupojthf3eafo16s4d5pbsry/"
+      },
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://hypha.coop/",
+        "gateway": "https://hypha-coop.ipns.ipfs.hypha.coop",
+        "cid": "bafybeiboivzcb5ynf7ebf7k637castdbaxxy5xa5sh4m22js76woeq3ew4",
+        "pubKey": "ipns://k51qzi5uqu5dlmj8c05a6xk0g0n09x2m3a76lq3ahemgwtsr8s0r4lax9f5yvp/",
+        "dnslink": "/ipns/k51qzi5uqu5dlmj8c05a6xk0g0n09x2m3a76lq3ahemgwtsr8s0r4lax9f5yvp/"
+      },
+      "http": {
+        "enabled": true,
+        "link": "https://hypha.coop"
+      }
+    },
+    "public": true,
+    "metadata": {
+      "title": "Home | Hypha Worker Co-operative",
+      "description": "We cultivate collective growth and meaningful livelihoods through learning and building technologies together."
     }
   },
   {
@@ -1529,7 +1774,7 @@
         "enabled": true,
         "link": "ipns://mapasperdidos.sutty.nl/",
         "gateway": "https://mapasperdidos-sutty-nl.ipns.ipfs.hypha.coop",
-        "cid": "bafybeifyzsoem2jrllrwoeprbi67d3eel23uiznpqafn2gzw7zdmehkge4",
+        "cid": "bafybeiawflmxmpjikc47e5dfglizx5yqjbivguu7yoytms4fwudxacfljq",
         "pubKey": "ipns://k51qzi5uqu5dhfp3ftk1qll6tbcvtviru3lw8bdh05k60iypk3lyzlx6675by5/",
         "dnslink": "/ipns/k51qzi5uqu5dhfp3ftk1qll6tbcvtviru3lw8bdh05k60iypk3lyzlx6675by5/"
       }
@@ -1677,6 +1922,111 @@
     "metadata": {
       "title": "COMPOST News | News from COMPOST and Distributed.Press",
       "description": "News and updates about COMPOST, Distributed.Press, and dweb publishing."
+    }
+  },
+  {
+    "domain": "one.compost.digital",
+    "protocols": {
+      "http": true,
+      "hyper": true,
+      "ipfs": true
+    },
+    "id": "one.compost.digital",
+    "links": {
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://one.compost.digital",
+        "gateway": "https://one-compost-digital.hyper.hypha.coop/",
+        "raw": "hyper://zb5aar87bd85qmd3m1z67gb6p35kic1jg6fj9cfbc6gwqun746iy/",
+        "dnslink": "/hyper/zb5aar87bd85qmd3m1z67gb6p35kic1jg6fj9cfbc6gwqun746iy/"
+      },
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://one.compost.digital/",
+        "gateway": "https://one-compost-digital.ipns.ipfs.hypha.coop",
+        "cid": "bafybeiewyufivc7a3jx6n5uxo33vmpj7mxanwgpj6shtqc2ura44w6ryvm",
+        "pubKey": "ipns://k51qzi5uqu5dm3fiiuk6h843uk50j3s3iert35boyclvj30tjfyi04e0drmqk1/",
+        "dnslink": "/ipns/k51qzi5uqu5dm3fiiuk6h843uk50j3s3iert35boyclvj30tjfyi04e0drmqk1/"
+      },
+      "http": {
+        "enabled": true,
+        "link": "https://one.compost.digital"
+      }
+    },
+    "public": true,
+    "metadata": {
+      "title": "COMPOST",
+      "description": "No Description Available"
+    }
+  },
+  {
+    "domain": "p2plabs.xyz",
+    "protocols": {
+      "http": true,
+      "hyper": true,
+      "ipfs": true
+    },
+    "public": true,
+    "id": "p2plabs.xyz",
+    "links": {
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://p2plabs.xyz",
+        "gateway": "https://p2plabs-xyz.hyper.hypha.coop/",
+        "raw": "hyper://jf8zk16gi146k9pacqa4ox7g8seq1s181jihnztp7ke5mqoiefso/",
+        "dnslink": "/hyper/jf8zk16gi146k9pacqa4ox7g8seq1s181jihnztp7ke5mqoiefso/"
+      },
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://p2plabs.xyz/",
+        "gateway": "https://p2plabs-xyz.ipns.ipfs.hypha.coop",
+        "cid": "bafybeihmzp6jypjfbe2xux5dtf5iderzmfu4z3lopibxhaoj4d3jbj2yum",
+        "pubKey": "ipns://k51qzi5uqu5dgnlaetz4rep2xzu9arhfux41ibgyms2u4zteud1cchjuboo87g/",
+        "dnslink": "/ipns/k51qzi5uqu5dgnlaetz4rep2xzu9arhfux41ibgyms2u4zteud1cchjuboo87g/"
+      },
+      "http": {
+        "enabled": true,
+        "link": "https://p2plabs.xyz"
+      }
+    },
+    "metadata": {
+      "title": "P2P Labs",
+      "description": "Building curated infrastructure tools for the decentralized web, based on p2p protocols."
+    }
+  },
+  {
+    "domain": "peersky.p2plabs.xyz",
+    "protocols": {
+      "http": true,
+      "hyper": true,
+      "ipfs": true
+    },
+    "public": true,
+    "id": "peersky.p2plabs.xyz",
+    "links": {
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://peersky.p2plabs.xyz/",
+        "gateway": "https://peersky-p2plabs-xyz.ipns.ipfs.hypha.coop",
+        "cid": "bafybeifkpu7ofr5evjxesnjscqyj23myaj2pahlodhqghtmppz4qttb3gm",
+        "pubKey": "ipns://k51qzi5uqu5di8adaqow5xoowt7rczuctcntk7xastmgdrrowb44dp5rf9j0wt/",
+        "dnslink": "/ipns/k51qzi5uqu5di8adaqow5xoowt7rczuctcntk7xastmgdrrowb44dp5rf9j0wt/"
+      },
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://peersky.p2plabs.xyz",
+        "gateway": "https://peersky-p2plabs-xyz.hyper.hypha.coop/",
+        "raw": "hyper://znzmbuqgootr9swdh5eee5jd5wd4pswp34foxhtw6ujuc66ch9dy/",
+        "dnslink": "/hyper/znzmbuqgootr9swdh5eee5jd5wd4pswp34foxhtw6ujuc66ch9dy/"
+      },
+      "http": {
+        "enabled": true,
+        "link": "https://peersky.p2plabs.xyz"
+      }
+    },
+    "metadata": {
+      "title": "Peersky Browser",
+      "description": "No Description Available"
     }
   },
   {
@@ -2030,6 +2380,72 @@
     }
   },
   {
+    "domain": "reader.distributed.press",
+    "protocols": {
+      "http": true,
+      "hyper": true,
+      "ipfs": true
+    },
+    "public": true,
+    "id": "reader.distributed.press",
+    "links": {
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://reader.distributed.press/",
+        "gateway": "https://reader-distributed-press.ipns.ipfs.hypha.coop",
+        "cid": "bafybeia45ypwgwfgz4zl4m4crpxwyzg5nykvudg75omnfiujrjsvi75nli",
+        "pubKey": "ipns://k51qzi5uqu5dlq7xoksrlo4ts18mk8hb0dbh869c4eo93fww7h4nvtkeupau9n/",
+        "dnslink": "/ipns/k51qzi5uqu5dlq7xoksrlo4ts18mk8hb0dbh869c4eo93fww7h4nvtkeupau9n/"
+      },
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://reader.distributed.press",
+        "gateway": "https://reader-distributed-press.hyper.hypha.coop/",
+        "raw": "hyper://zdcmdxctwgz7p9gxtfz79147khgwxfxtw3tnt1wgz9zd16dawp9y/",
+        "dnslink": "/hyper/zdcmdxctwgz7p9gxtfz79147khgwxfxtw3tnt1wgz9zd16dawp9y/"
+      },
+      "http": {
+        "enabled": true,
+        "link": "https://reader.distributed.press"
+      }
+    },
+    "metadata": {
+      "title": "Social Reader",
+      "description": "No Description Available"
+    }
+  },
+  {
+    "domain": "recursero.info",
+    "public": true,
+    "protocols": {
+      "http": false,
+      "ipfs": true,
+      "hyper": true
+    },
+    "id": "recursero.info",
+    "links": {
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://recursero.info/",
+        "gateway": "https://recursero-info.ipns.ipfs.hypha.coop",
+        "cid": "bafybeiczsscdsbs7ffqz55asqdf3smv6klcw3gofszvwlyarci47bgf354",
+        "pubKey": "ipns://k51qzi5uqu5djkhz03f5xf3o6147ycug0ku1da2s4s3ate8jvcjx1affyvugnm/",
+        "dnslink": "/ipns/k51qzi5uqu5djkhz03f5xf3o6147ycug0ku1da2s4s3ate8jvcjx1affyvugnm/"
+      },
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://recursero.info",
+        "gateway": "https://recursero-info.hyper.hypha.coop/",
+        "raw": "hyper://9ou1rpr8bd4hoss8ioh145htia7bryrs9nfgqfg53pdcyneu8gwo/",
+        "dnslink": "/hyper/9ou1rpr8bd4hoss8ioh145htia7bryrs9nfgqfg53pdcyneu8gwo/"
+      }
+    },
+    "metadata": {
+      "title": "Recursero Trans | Proyecto colaborativo comunitario por y para personas trans* en Argentina",
+      "description": "Proyecto colaborativo comunitario por y para personas trans* en Argentina"
+    }
+  },
+  {
     "domain": "rithikha.sutty.nl",
     "protocols": {
       "http": false,
@@ -2065,8 +2481,8 @@
     }
   },
   {
-    "public": true,
     "domain": "savethearchive.com",
+    "public": true,
     "protocols": {
       "http": true,
       "hyper": true,
@@ -2078,6 +2494,13 @@
         "enabled": true,
         "link": "https://savethearchive.com"
       },
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://savethearchive.com",
+        "gateway": "https://savethearchive-com.hyper.hypha.coop/",
+        "raw": "hyper://74sagnbg4ax3m76r7rrwgrfmyk1zuh1gbwu3uqgu6un8eg4tujqy/",
+        "dnslink": "/hyper/74sagnbg4ax3m76r7rrwgrfmyk1zuh1gbwu3uqgu6un8eg4tujqy/"
+      },
       "ipfs": {
         "enabled": true,
         "link": "ipns://savethearchive.com/",
@@ -2085,13 +2508,6 @@
         "cid": "bafybeiczsscdsbs7ffqz55asqdf3smv6klcw3gofszvwlyarci47bgf354",
         "pubKey": "ipns://k51qzi5uqu5dgt0xpdpyo0128l1xoofh28u9eroxx7f90qn4mmchnnxyqh4awh/",
         "dnslink": "/ipns/k51qzi5uqu5dgt0xpdpyo0128l1xoofh28u9eroxx7f90qn4mmchnnxyqh4awh/"
-      },
-      "hyper": {
-        "enabled": true,
-        "link": "hyper://savethearchive.com",
-        "gateway": "https://savethearchive-com.hyper.hypha.coop/",
-        "raw": "hyper://74sagnbg4ax3m76r7rrwgrfmyk1zuh1gbwu3uqgu6un8eg4tujqy/",
-        "dnslink": "/hyper/74sagnbg4ax3m76r7rrwgrfmyk1zuh1gbwu3uqgu6un8eg4tujqy/"
       }
     },
     "metadata": {
@@ -2101,12 +2517,12 @@
   },
   {
     "domain": "sim-territorio.sutty.nl",
-    "protocols": {
-      "http": false,
-      "ipfs": true,
-      "hyper": true
-    },
     "public": true,
+    "protocols": {
+      "http": true,
+      "hyper": true,
+      "ipfs": true
+    },
     "id": "sim-territorio.sutty.nl",
     "links": {
       "http": {
@@ -2124,7 +2540,7 @@
         "enabled": true,
         "link": "ipns://sim-territorio.sutty.nl/",
         "gateway": "https://sim--territorio-sutty-nl.ipns.ipfs.hypha.coop",
-        "cid": "bafybeid3s2lrmga57a75vjfjpwvekfyt6b57h6xbqprubqe6pyizpalbju",
+        "cid": "bafybeidf2vfphfpjckjljni4emofgy7rvugn6pz5szxcm3e7yswwvn44ja",
         "pubKey": "ipns://k51qzi5uqu5dhr2tkch6a9wz7kd24e0b5kxhudvrztxfvf9dlm2xnstmzbd20x/",
         "dnslink": "/ipns/k51qzi5uqu5dhr2tkch6a9wz7kd24e0b5kxhudvrztxfvf9dlm2xnstmzbd20x/"
       }
@@ -2292,7 +2708,7 @@
         "enabled": true,
         "link": "ipns://sutty.nl/",
         "gateway": "https://sutty-nl.ipns.ipfs.hypha.coop",
-        "cid": "bafybeifi63fan6alwm4moxusqrd3wuteqlydwrweshuyxknm5azh7vjpje",
+        "cid": "bafybeidcawlrlby76a7c3lrmku2emr2ukl6rv6whsiwk7amlv7xtbpdwxu",
         "pubKey": "ipns://k51qzi5uqu5dlcg1b4blmevb6d12nmpi8z5r49ix0gotnmmxuvgasfif6i2l6m/",
         "dnslink": "/ipns/k51qzi5uqu5dlcg1b4blmevb6d12nmpi8z5r49ix0gotnmmxuvgasfif6i2l6m/"
       },
@@ -2307,6 +2723,72 @@
     "metadata": {
       "title": "Sutty | Sutty crea sitios seguros, veloces y visibles para organizaciones, colectivas y activistasSuttySuttyLogo de SuttySuttySuttyUn signo de exclamación que late para llamar la atención.SuttyUn símbolo de mayor \">\"SuttyUn símbolo de numeral \"#\"Un asterisco \"*\"SuttyUn ñuflo, el símbolo de la ñ \"~\"Un circunflejo \"^\"SuttySutty",
       "description": "Sutty crea sitios seguros, veloces y visibles para organizaciones, colectivas y activistas"
+    }
+  },
+  {
+    "public": true,
+    "domain": "take-action-stop-pharmacies-sharing-your-data.fftf.io",
+    "protocols": {
+      "http": true,
+      "hyper": true,
+      "ipfs": true
+    },
+    "id": "take-action-stop-pharmacies-sharing-your-data.fftf.io",
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://take-action-stop-pharmacies-sharing-your-data.fftf.io"
+      },
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://take-action-stop-pharmacies-sharing-your-data.fftf.io",
+        "gateway": "https://take--action--stop--pharmacies--sharing--your--data-fftf-io.hyper.hypha.coop/",
+        "raw": "hyper://xtzrot33mw34d15twnch3a4ihq5pmxo7c1tpmnt39es1f3ztpb4y/",
+        "dnslink": "/hyper/xtzrot33mw34d15twnch3a4ihq5pmxo7c1tpmnt39es1f3ztpb4y/"
+      },
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://take-action-stop-pharmacies-sharing-your-data.fftf.io/",
+        "gateway": "https://take--action--stop--pharmacies--sharing--your--data-fftf-io.ipns.ipfs.hypha.coop",
+        "cid": "bafybeifipg5p4wkr4wszqcj3w2rhb5u3wlq76kfugkojhc2ml7ewsyql2i",
+        "pubKey": "ipns://k51qzi5uqu5dg730vg2bret284x4zqeymbwp38fblxtrmq44o04zfa7u5dxbk9/",
+        "dnslink": "/ipns/k51qzi5uqu5dg730vg2bret284x4zqeymbwp38fblxtrmq44o04zfa7u5dxbk9/"
+      }
+    },
+    "metadata": {
+      "title": "Take Action: Stop Pharmacies Sharing Your Data",
+      "description": "No Description Available"
+    }
+  },
+  {
+    "domain": "taolicus.sutty.nl",
+    "public": true,
+    "protocols": {
+      "http": false,
+      "ipfs": true,
+      "hyper": true
+    },
+    "id": "taolicus.sutty.nl",
+    "links": {
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://taolicus.sutty.nl",
+        "gateway": "https://taolicus-sutty-nl.hyper.hypha.coop/",
+        "raw": "hyper://7dhhqtzm614bergz4hgdf55nyjk8iw8ao1hb5ptejhxuy87fjrco/",
+        "dnslink": "/hyper/7dhhqtzm614bergz4hgdf55nyjk8iw8ao1hb5ptejhxuy87fjrco/"
+      },
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://taolicus.sutty.nl/",
+        "gateway": "https://taolicus-sutty-nl.ipns.ipfs.hypha.coop",
+        "cid": "bafybeidsbixmji2jd5zsb5alnr5vifom6msi66pbqwnx2zs7f4ws3muzbe",
+        "pubKey": "ipns://k51qzi5uqu5dlvyi1udg7y7ewt8vjsn6o7dl2vdc8tdgng4kuqg4yzy8lyfauz/",
+        "dnslink": "/ipns/k51qzi5uqu5dlvyi1udg7y7ewt8vjsn6o7dl2vdc8tdgng4kuqg4yzy8lyfauz/"
+      }
+    },
+    "metadata": {
+      "title": "Tao | Soy Tao, un trabajador web nacido en Santiago de Chile y residente en Londres, Reino Unido.",
+      "description": "Soy Tao, un trabajador web nacido en Santiago de Chile y residente en Londres, Reino Unido."
     }
   },
   {
@@ -2520,6 +3002,41 @@
     }
   },
   {
+    "domain": "two.compost.digital",
+    "protocols": {
+      "http": true,
+      "hyper": true,
+      "ipfs": true
+    },
+    "id": "two.compost.digital",
+    "links": {
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://two.compost.digital",
+        "gateway": "https://two-compost-digital.hyper.hypha.coop/",
+        "raw": "hyper://dpb5p7ttfo7nuq1bfbmxkdkcjjm7bh5dzsf79r7hezw8ky671jzo/",
+        "dnslink": "/hyper/dpb5p7ttfo7nuq1bfbmxkdkcjjm7bh5dzsf79r7hezw8ky671jzo/"
+      },
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://two.compost.digital/",
+        "gateway": "https://two-compost-digital.ipns.ipfs.hypha.coop",
+        "cid": "bafybeiamh7mo43l7citjjj5bpisycxofapzc3giohgdddti5hl2ixu7dom",
+        "pubKey": "ipns://k51qzi5uqu5dg8qyzwuu4et8zc6aeja7ddrd14zmnz6wct1c3u58rjvmgu5b0i/",
+        "dnslink": "/ipns/k51qzi5uqu5dg8qyzwuu4et8zc6aeja7ddrd14zmnz6wct1c3u58rjvmgu5b0i/"
+      },
+      "http": {
+        "enabled": true,
+        "link": "https://two.compost.digital"
+      }
+    },
+    "public": true,
+    "metadata": {
+      "title": "COMPOST",
+      "description": "No Description Available"
+    }
+  },
+  {
     "domain": "vamosencontra.cl",
     "protocols": {
       "http": false,
@@ -2590,6 +3107,76 @@
     }
   },
   {
+    "domain": "wiki.p2plabs.xyz",
+    "protocols": {
+      "http": true,
+      "hyper": true,
+      "ipfs": true
+    },
+    "public": true,
+    "id": "wiki.p2plabs.xyz",
+    "links": {
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://wiki.p2plabs.xyz",
+        "gateway": "https://wiki-p2plabs-xyz.hyper.hypha.coop/",
+        "raw": "hyper://aukbgppegsdpynofntt4qrm7xusmizhkezr3xzrjzr3zebu1xy6y/",
+        "dnslink": "/hyper/aukbgppegsdpynofntt4qrm7xusmizhkezr3xzrjzr3zebu1xy6y/"
+      },
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://wiki.p2plabs.xyz/",
+        "gateway": "https://wiki-p2plabs-xyz.ipns.ipfs.hypha.coop",
+        "cid": "bafybeichmrfl2lfqdj363pnbbwsmit2l34his7zblh7fbs3z5dqmztjspe",
+        "pubKey": "ipns://k51qzi5uqu5dl1gsf4yizlmlnypjpxmv45hjs4yo8dnyxclceq0hbd6z20yrn6/",
+        "dnslink": "/ipns/k51qzi5uqu5dl1gsf4yizlmlnypjpxmv45hjs4yo8dnyxclceq0hbd6z20yrn6/"
+      },
+      "http": {
+        "enabled": true,
+        "link": "https://wiki.p2plabs.xyz"
+      }
+    },
+    "metadata": {
+      "title": "IPFS Wikipedia Search",
+      "description": "A lightweight, open-source search interface for browsing Wikipedia over IPFS (InterPlanetary File System)."
+    }
+  },
+  {
+    "public": true,
+    "domain": "www.clearviewcopout.org",
+    "protocols": {
+      "http": true,
+      "hyper": true,
+      "ipfs": true
+    },
+    "id": "www.clearviewcopout.org",
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://www.clearviewcopout.org"
+      },
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://www.clearviewcopout.org/",
+        "gateway": "https://www-clearviewcopout-org.ipns.ipfs.hypha.coop",
+        "cid": "bafybeiczsscdsbs7ffqz55asqdf3smv6klcw3gofszvwlyarci47bgf354",
+        "pubKey": "ipns://k51qzi5uqu5djbblesbr4w0zfszr7qdkpcvnqo8lpo2weeia8qzaf5th3a616h/",
+        "dnslink": "/ipns/k51qzi5uqu5djbblesbr4w0zfszr7qdkpcvnqo8lpo2weeia8qzaf5th3a616h/"
+      },
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://www.clearviewcopout.org",
+        "gateway": "https://www-clearviewcopout-org.hyper.hypha.coop/",
+        "raw": "hyper://6sf8wsnr6hay4t711peeknucf79ntn6pajudekx6c4ob1uodr17o/",
+        "dnslink": "/hyper/6sf8wsnr6hay4t711peeknucf79ntn6pajudekx6c4ob1uodr17o/"
+      }
+    },
+    "metadata": {
+      "title": "Clearview CopOut Campaign",
+      "description": "No Description Available"
+    }
+  },
+  {
     "public": true,
     "domain": "www.fightforthefuture.org",
     "protocols": {
@@ -2649,7 +3236,7 @@
         "enabled": true,
         "link": "ipns://www.keepkhan.com/",
         "gateway": "https://www-keepkhan-com.ipns.ipfs.hypha.coop",
-        "cid": "bafybeie2p5xivgk6rxgm2eemaypeeidpf7hocri2fgnr7pnxoplhhvfhpm",
+        "cid": "bafybeicou5rv44dds5qtbrifpqxm7nfdvyavaoe5gf4y7zhmx7tpr2k6hi",
         "pubKey": "ipns://k51qzi5uqu5dkif16furxzim98l44adw2h5r8ghecispdjfrn47jsfne6969b3/",
         "dnslink": "/ipns/k51qzi5uqu5dkif16furxzim98l44adw2h5r8ghecispdjfrn47jsfne6969b3/"
       }
@@ -2684,13 +3271,48 @@
         "enabled": true,
         "link": "ipns://www.savethearchive.com/",
         "gateway": "https://www-savethearchive-com.ipns.ipfs.hypha.coop",
-        "cid": "bafybeigfl7espuotaqh3gayzgvcf2tcopenlbcjmr5dv5vtlr25qdxxfby",
+        "cid": "bafybeignbjipmdyotbfz2oqz7te2b7on2kyupegk4l2novnijzjnsommca",
         "pubKey": "ipns://k51qzi5uqu5dgtk5uyo6yl3b583ljhvx6l6idir13hjhnxjlu8vtu9ohxwv4lz/",
         "dnslink": "/ipns/k51qzi5uqu5dgtk5uyo6yl3b583ljhvx6l6idir13hjhnxjlu8vtu9ohxwv4lz/"
       }
     },
     "metadata": {
       "title": "Save Music, Save the Archive!",
+      "description": "No Description Available"
+    }
+  },
+  {
+    "public": true,
+    "domain": "www.stopcopaganda.org",
+    "protocols": {
+      "http": true,
+      "hyper": true,
+      "ipfs": true
+    },
+    "id": "www.stopcopaganda.org",
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://www.stopcopaganda.org"
+      },
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://www.stopcopaganda.org/",
+        "gateway": "https://www-stopcopaganda-org.ipns.ipfs.hypha.coop",
+        "cid": "bafybeihau7bniny3dzvlji5r3mg4ehpfyas3ehje3xr6llooga6mpp6hf4",
+        "pubKey": "ipns://k51qzi5uqu5dl1z0v2nrfrj9xcyzfxrg297x8ehr71vbza2kz0i7vqnueb314p/",
+        "dnslink": "/ipns/k51qzi5uqu5dl1z0v2nrfrj9xcyzfxrg297x8ehr71vbza2kz0i7vqnueb314p/"
+      },
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://www.stopcopaganda.org",
+        "gateway": "https://www-stopcopaganda-org.hyper.hypha.coop/",
+        "raw": "hyper://t65ttkrbzx8rctoyqo8981wkat55gyjyog7dea3ck3a7cgkpr1by/",
+        "dnslink": "/hyper/t65ttkrbzx8rctoyqo8981wkat55gyjyog7dea3ck3a7cgkpr1by/"
+      }
+    },
+    "metadata": {
+      "title": "STOP SURVEILLANCE COPAGANDA",
       "description": "No Description Available"
     }
   },
@@ -2727,6 +3349,98 @@
     "metadata": {
       "title": "Yantra Dyes | Tiedye",
       "description": "Tiedye"
+    }
+  },
+  {
+    "domain": "agregore.mauve.moe",
+    "protocols": {
+      "http": true,
+      "hyper": true,
+      "ipfs": true,
+      "bittorrent": true
+    },
+    "id": "agregore.mauve.moe",
+    "links": {
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://agregore.mauve.moe",
+        "gateway": "https://agregore-mauve-moe.hyper.hypha.coop/",
+        "raw": "hyper://kpyre8et3ko6kyc5shg97c9c6n4s6zmkuzqbzp19r8sr5jqe5zzy/",
+        "dnslink": "/hyper/kpyre8et3ko6kyc5shg97c9c6n4s6zmkuzqbzp19r8sr5jqe5zzy/"
+      },
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://agregore.mauve.moe/",
+        "gateway": "https://agregore-mauve-moe.ipns.ipfs.hypha.coop",
+        "cid": "bafybeiesxlaav2bfj6dq2pmx3cmvkyqatsizhfbnaclp333nzxt5vgmzma",
+        "pubKey": "ipns://k51qzi5uqu5djxbrm2kkndcscgtg9nktb5duxqisp69knqu1wi2djjvol33o3o/",
+        "dnslink": "/ipns/k51qzi5uqu5djxbrm2kkndcscgtg9nktb5duxqisp69knqu1wi2djjvol33o3o/"
+      },
+      "http": {
+        "enabled": true,
+        "link": "https://agregore.mauve.moe"
+      },
+      "bittorrent": {
+        "enabled": true,
+        "link": "bittorent://agregore.mauve.moe/",
+        "gateway": "https://agregore-mauve-moe.bt.hypha.coop/",
+        "infoHash": "bittorrent://5af88b23cd77e205fac871824f7aa9d6640dcc8c/",
+        "pubKey": "bittorrent://c8c4ad24fad643622e68ab90398a94f127e0e0d764a4016f3233bfdea3f9ebe7/",
+        "magnet": "magnet:?xt=urn:btih:5af88b23cd77e205fac871824f7aa9d6640dcc8c&xs=urn:btpk:c8c4ad24fad643622e68ab90398a94f127e0e0d764a4016f3233bfdea3f9ebe7",
+        "dnslink": "/bittorrent/c8c4ad24fad643622e68ab90398a94f127e0e0d764a4016f3233bfdea3f9ebe7"
+      }
+    },
+    "public": true,
+    "bittorrent": false,
+    "metadata": {
+      "title": "Agregore",
+      "description": "Explore the distributed web"
+    }
+  },
+  {
+    "domain": "blog.mauve.moe",
+    "protocols": {
+      "http": true,
+      "hyper": true,
+      "ipfs": true,
+      "bittorrent": true
+    },
+    "id": "blog.mauve.moe",
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://blog.mauve.moe"
+      },
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://blog.mauve.moe",
+        "gateway": "https://blog-mauve-moe.hyper.hypha.coop/",
+        "raw": "hyper://1m51x54k3fwbuec5z4edbathiq3aj6bew8b556ezrszizskogo3o/",
+        "dnslink": "/hyper/1m51x54k3fwbuec5z4edbathiq3aj6bew8b556ezrszizskogo3o/"
+      },
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://blog.mauve.moe/",
+        "gateway": "https://blog-mauve-moe.ipns.ipfs.hypha.coop",
+        "cid": "bafybeihgl625wchdaoqawn5hnlbyaph7bolqkv5odqzdojbxiv557uhm3y",
+        "pubKey": "ipns://k51qzi5uqu5djteufrelfxdxc9rh6d1a3ps1fr3o3ds4vwr9sf0xzto8oakawc/",
+        "dnslink": "/ipns/k51qzi5uqu5djteufrelfxdxc9rh6d1a3ps1fr3o3ds4vwr9sf0xzto8oakawc/"
+      },
+      "bittorrent": {
+        "enabled": true,
+        "link": "bittorent://blog.mauve.moe/",
+        "gateway": "https://blog-mauve-moe.bt.hypha.coop/",
+        "infoHash": "bittorrent://bbad2f8321989a8395a6b1bac6240877ab86727a/",
+        "pubKey": "bittorrent://416ce4db34ae1260d81c2aed16bd1eab3481e4e48f3c781aa9c057b15d900b71/",
+        "magnet": "magnet:?xt=urn:btih:bbad2f8321989a8395a6b1bac6240877ab86727a&xs=urn:btpk:416ce4db34ae1260d81c2aed16bd1eab3481e4e48f3c781aa9c057b15d900b71",
+        "dnslink": "/bittorrent/416ce4db34ae1260d81c2aed16bd1eab3481e4e48f3c781aa9c057b15d900b71"
+      }
+    },
+    "public": true,
+    "bittorrent": false,
+    "metadata": {
+      "title": "Mauve's Blog - Home",
+      "description": "Blog posts by RangerMauve"
     }
   }
 ]

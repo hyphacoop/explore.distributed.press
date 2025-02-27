@@ -155,6 +155,68 @@
     }
   },
   {
+    "domain": "sciop.net",
+    "protocols": {
+      "http": true,
+      "hyper": true,
+      "ipfs": true
+    },
+    "public": true,
+    "id": "sciop.net",
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://sciop.net"
+      },
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://sciop.net",
+        "gateway": "https://sciop-net.hyper.hypha.coop/",
+        "raw": "hyper://n6eariwr3t91bwfkifmwkbw1ufsf78zh6krfwipzrf9cj4ef8oqy/",
+        "dnslink": "/hyper/n6eariwr3t91bwfkifmwkbw1ufsf78zh6krfwipzrf9cj4ef8oqy/"
+      },
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://sciop.net/",
+        "gateway": "https://sciop-net.ipns.ipfs.hypha.coop",
+        "cid": "bafybeifjfljlxqp4ns5mhcel6jaqeid5hvhrt6p4c4ljmb3o6tis53wwgq",
+        "pubKey": "ipns://k51qzi5uqu5dgeg8eap4nu942ucjw1ajxypoxxbt07eub686t2e9hlv2yy5q14/",
+        "dnslink": "/ipns/k51qzi5uqu5dgeg8eap4nu942ucjw1ajxypoxxbt07eub686t2e9hlv2yy5q14/"
+      }
+    }
+  },
+  {
+    "domain": "string",
+    "protocols": {
+      "http": true,
+      "hyper": true,
+      "ipfs": true
+    },
+    "public": true,
+    "id": "string",
+    "links": {
+      "http": {
+        "enabled": true,
+        "link": "https://string"
+      },
+      "ipfs": {
+        "enabled": true,
+        "link": "ipns://string/",
+        "gateway": "https://string.ipns.ipfs.hypha.coop",
+        "cid": "bafybeiczsscdsbs7ffqz55asqdf3smv6klcw3gofszvwlyarci47bgf354",
+        "pubKey": "ipns://k51qzi5uqu5dgse2k6vl0tx8b6h0pddoo7azacobif81jlfd9logbflzicoql5/",
+        "dnslink": "/ipns/k51qzi5uqu5dgse2k6vl0tx8b6h0pddoo7azacobif81jlfd9logbflzicoql5/"
+      },
+      "hyper": {
+        "enabled": true,
+        "link": "hyper://string",
+        "gateway": "https://string.hyper.hypha.coop/",
+        "raw": "hyper://7hnsf3x3xetjm9q8iax67imq99s1p1jze6h3pkgjensbaobrde5y/",
+        "dnslink": "/hyper/7hnsf3x3xetjm9q8iax67imq99s1p1jze6h3pkgjensbaobrde5y/"
+      }
+    }
+  },
+  {
     "domain": "manual-site-1.com",
     "metadata": {
       "title": "Manually Added Site",
