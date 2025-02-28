@@ -17,6 +17,18 @@ function sanitizeText (text) {
   })
 }
 
+// Function to truncate long text and add a click-to-expand feature
+function truncateText (text, limit = 50) {
+  if (!text || text.length <= limit) return sanitizeText(text)
+
+  const truncated = sanitizeText(text.slice(0, limit))
+  const fullText = sanitizeText(text)
+
+  return `
+    <span class="truncated">${truncated} <span class="expand" onclick="this.parentElement.innerHTML='${fullText}'">[...]</span></span>
+  `
+}
+
 // Manually list organizational subdomains that should be prioritized
 const prioritizedSubdomains = [
   'try.distributed.press',
@@ -124,8 +136,8 @@ function generateHTML (sites) {
                   (site) => `
                   <tr>
                     <td><a href="${sanitizeText(site.links.http?.link || '#')}" target="_blank">${sanitizeText(site.domain)}</a></td>
-                    <td>${sanitizeText(site.metadata.title || 'No Title Available')}</td>
-                    <td>${sanitizeText(site.metadata.description || 'No Description Available')}</td>
+                    <td>${truncateText(site.metadata.title || 'No Title Available')}</td>
+                    <td>${truncateText(site.metadata.description || 'No Description Available')}</td>
                     <td>
                       ${site.links.http?.link ? `<a href="${sanitizeText(site.links.http.link)}" target="_blank">[http]</a>` : ''}
                       ${site.links.ipfs?.enabled ? `<a href="https://ipfs.hypha.coop/ipns/${sanitizeText(site.domain)}/" target="_blank">[ipfs]</a>` : ''}
